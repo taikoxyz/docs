@@ -1,5 +1,5 @@
 ---
-title: Example Reference
+title: Bridge Relayer API
 description: A reference page in my new Starlight docs site.
 ---
 
