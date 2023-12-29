@@ -23,10 +23,20 @@ export default defineConfig({
       },
       sidebar: [
         {
+          label: "Start Here",
+          autogenerate: { directory: "start-here" },
+        },
+        {
+          label: "Core Concepts",
+          autogenerate: { directory: "core-concepts" },
+        },
+        {
           label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", link: "/guides/example/" },
+            { label: "Setup Your Wallet", link: "/guides/setup-your-wallet/" },
+            { label: "Deploy a Contract", link: "/guides/deploy-a-contract/" },
+            { label: "Run a Node", link: "/guides/run-a-node/" },
           ],
         },
         {
