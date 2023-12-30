@@ -1,6 +1,5 @@
 ---
 title: Why Taiko
-description: A guide in my new Starlight docs site.
 ---
 
 - Ethereum has a scaling problem
