@@ -3,9 +3,15 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://docs.taiko.xyz",
+  // site: "https://docs.taiko.xyz",
+  redirects: {
+    "/": "/start-here/getting-started",
+  },
   integrations: [
     starlight({
+      components: {
+        SiteTitle: "./src/components/starlight/SiteTitle.astro",
+      },
       title: "Docs",
       editLink: {
         baseUrl: "https://github.com/taikoxyz/docs/edit/main/docs/",
@@ -28,20 +34,40 @@ export default defineConfig({
         },
         {
           label: "Core Concepts",
+          // items: [
+          //   { label: "Why Taiko?", link: "/core-concepts/what-is-taiko/" },
+          //   {
+          //     label: "Rollup architecture",
+          //     link: "/core-concepts/booster-rollups/",
+          //   },
+          //   {
+          //     label: "ZK-EVM architecture",
+          //     link: "/core-concepts/multi-proofs/",
+          //   },
+          //   {
+          //     label: "Differences from Ethereum",
+          //     link: "/core-concepts/differences-from-ethereum/",
+          //   },
+          // ],
           autogenerate: { directory: "core-concepts" },
         },
         {
           label: "Guides",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Setup Your Wallet", link: "/guides/setup-your-wallet/" },
-            { label: "Deploy a Contract", link: "/guides/deploy-a-contract/" },
-            { label: "Run a Node", link: "/guides/run-a-node/" },
-          ],
+          // items: [
+          //   { label: "Setup your wallet", link: "/guides/setup-your-wallet/" },
+          //   { label: "Receive tokens", link: "/guides/receive-tokens/" },
+          //   { label: "Deploy a contract", link: "/guides/deploy-a-contract/" },
+          //   { label: "Run a node", link: "/guides/run-a-node/" },
+          // ],
+          autogenerate: { directory: "guides" },
         },
         {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
+          label: "Network Reference",
+          autogenerate: { directory: "network-reference" },
+        },
+        {
+          label: "API Reference",
+          autogenerate: { directory: "api-reference" },
         },
       ],
     }),
