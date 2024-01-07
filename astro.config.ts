@@ -4,6 +4,10 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   // site: "https://docs.taiko.xyz",
+  // allow access from tailscale
+  server: {
+    host: true,
+  },
   redirects: {
     "/": "/start-here/getting-started",
   },
@@ -68,6 +72,10 @@ export default defineConfig({
         {
           label: "API Reference",
           autogenerate: { directory: "api-reference" },
+        },
+        {
+          label: "Resources",
+          autogenerate: { directory: "resources" },
         },
       ],
     }),
