@@ -36,8 +36,8 @@ export default defineConfig({
           label: "Start Here",
           items: [
             { label: "Getting started", link: "/start-here/getting-started/" },
-            { label: "Getting support", link: "/start-here/getting-support" },
             { label: "Contributing", link: "/start-here/contributing/" },
+            { label: "Getting support", link: "/start-here/getting-support" },
           ],
         },
         {
@@ -80,7 +80,10 @@ export default defineConfig({
             { label: "Swap tokens", link: "/guides/swap-tokens/" },
             { label: "Deploy a contract", link: "/guides/deploy-a-contract/" },
             { label: "Verify a contract", link: "/guides/verify-a-contract/" },
-            { label: "Run a Holesky node", link: "/guides/run-a-taiko-node/" },
+            {
+              label: "Run a Holesky node",
+              link: "/guides/run-a-holesky-node/",
+            },
             { label: "Run a Taiko node", link: "/guides/run-a-taiko-node/" },
           ],
         },
