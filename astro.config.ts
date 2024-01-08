@@ -36,7 +36,6 @@ export default defineConfig({
           label: "Start Here",
           items: [
             { label: "Getting started", link: "/start-here/getting-started/" },
-            { label: "What is Taiko?", link: "/start-here/what-is-taiko/" },
             { label: "Getting support", link: "/start-here/getting-support" },
             { label: "Contributing", link: "/start-here/contributing/" },
           ],
@@ -44,6 +43,7 @@ export default defineConfig({
         {
           label: "Core Concepts",
           items: [
+            { label: "What is Taiko?", link: "/core-concepts/what-is-taiko/" },
             {
               label: "Based sequencing",
               link: "/core-concepts/based-sequencing/",

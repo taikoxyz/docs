@@ -2,8 +2,6 @@
 title: Learning resources
 ---
 
-Here we can collect a bunch of learning resources for Taikoers.
-
 ## Based rollups
 
 - X space: [Based rollups and decentralized sequencing](https://www.youtube.com/watch?v=eS5s08sgjuo).
