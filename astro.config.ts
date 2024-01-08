@@ -50,7 +50,7 @@ export default defineConfig({
             },
             {
               label: "Contestable rollups",
-              link: "/core-concepts/booster-rollups/",
+              link: "/core-concepts/contestable-rollups/",
             },
             {
               label: "Booster rollups",
@@ -59,11 +59,11 @@ export default defineConfig({
             { label: "Multi-proofs", link: "/core-concepts/multi-proofs/" },
             {
               label: "Taiko nodes",
-              link: "/core-concepts/taiko-node-architecture/",
+              link: "/core-concepts/taiko-nodes/",
             },
             {
               label: "Bridging",
-              link: "/core-concepts/bridging-architecture/",
+              link: "/core-concepts/bridging/",
             },
             {
               label: "Inception layers",
