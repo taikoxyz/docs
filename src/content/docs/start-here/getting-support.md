@@ -1,5 +1,5 @@
 ---
-title: Get support
+title: Getting support
 ---
 
 - mention grants

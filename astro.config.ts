@@ -34,40 +34,72 @@ export default defineConfig({
       sidebar: [
         {
           label: "Start Here",
-          autogenerate: { directory: "start-here" },
+          items: [
+            { label: "Getting started", link: "/start-here/getting-started/" },
+            { label: "What is Taiko?", link: "/start-here/what-is-taiko/" },
+            { label: "Getting support", link: "/start-here/getting-support" },
+            { label: "Contributing", link: "/start-here/contributing/" },
+          ],
         },
         {
           label: "Core Concepts",
-          // items: [
-          //   { label: "Why Taiko?", link: "/core-concepts/what-is-taiko/" },
-          //   {
-          //     label: "Rollup architecture",
-          //     link: "/core-concepts/booster-rollups/",
-          //   },
-          //   {
-          //     label: "ZK-EVM architecture",
-          //     link: "/core-concepts/multi-proofs/",
-          //   },
-          //   {
-          //     label: "Differences from Ethereum",
-          //     link: "/core-concepts/differences-from-ethereum/",
-          //   },
-          // ],
-          autogenerate: { directory: "core-concepts" },
+          items: [
+            {
+              label: "Based sequencing",
+              link: "/core-concepts/based-sequencing/",
+            },
+            {
+              label: "Contestable rollups",
+              link: "/core-concepts/booster-rollups/",
+            },
+            {
+              label: "Booster rollups",
+              link: "/core-concepts/booster-rollups/",
+            },
+            { label: "Multi-proofs", link: "/core-concepts/multi-proofs/" },
+            {
+              label: "Taiko nodes",
+              link: "/core-concepts/taiko-node-architecture/",
+            },
+            {
+              label: "Bridging",
+              link: "/core-concepts/bridging-architecture/",
+            },
+            {
+              label: "Inception layers",
+              link: "/core-concepts/inception-layers/",
+            },
+          ],
         },
         {
           label: "Guides",
-          // items: [
-          //   { label: "Setup your wallet", link: "/guides/setup-your-wallet/" },
-          //   { label: "Receive tokens", link: "/guides/receive-tokens/" },
-          //   { label: "Deploy a contract", link: "/guides/deploy-a-contract/" },
-          //   { label: "Run a node", link: "/guides/run-a-node/" },
-          // ],
-          autogenerate: { directory: "guides" },
+          items: [
+            { label: "Setup your wallet", link: "/guides/setup-your-wallet/" },
+            { label: "Receive tokens", link: "/guides/receive-tokens/" },
+            { label: "Bridge tokens", link: "/guides/bridge-tokens/" },
+            { label: "Swap tokens", link: "/guides/swap-tokens/" },
+            { label: "Deploy a contract", link: "/guides/deploy-a-contract/" },
+            { label: "Verify a contract", link: "/guides/verify-a-contract/" },
+            { label: "Run a Holesky node", link: "/guides/run-a-taiko-node/" },
+            { label: "Run a Taiko node", link: "/guides/run-a-taiko-node/" },
+          ],
         },
         {
           label: "Network Reference",
-          autogenerate: { directory: "network-reference" },
+          items: [
+            {
+              label: "Differences from Ethereum",
+              link: "/network-reference/differences-from-ethereum",
+            },
+            {
+              label: "Deployed contracts",
+              link: "/network-reference/deployed-contracts",
+            },
+            {
+              label: "RPC configuration",
+              link: "/network-reference/rpc-configuration",
+            },
+          ],
         },
         {
           label: "API Reference",

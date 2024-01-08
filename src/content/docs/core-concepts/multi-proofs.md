@@ -1,3 +1,3 @@
 ---
-title: Multi-proof architecture
+title: Multi-proofs 
 ---
