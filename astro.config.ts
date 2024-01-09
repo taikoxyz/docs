@@ -4,9 +4,8 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   // site: "https://docs.taiko.xyz",
-  // allow access from tailscale
   server: {
-    host: true,
+    host: true, // allow access from tailscale
   },
   redirects: {
     "/": "/start-here/getting-started",
@@ -77,7 +76,6 @@ export default defineConfig({
             { label: "Setup your wallet", link: "/guides/setup-your-wallet/" },
             { label: "Receive tokens", link: "/guides/receive-tokens/" },
             { label: "Bridge tokens", link: "/guides/bridge-tokens/" },
-            { label: "Swap tokens", link: "/guides/swap-tokens/" },
             { label: "Deploy a contract", link: "/guides/deploy-a-contract/" },
             { label: "Verify a contract", link: "/guides/verify-a-contract/" },
             {

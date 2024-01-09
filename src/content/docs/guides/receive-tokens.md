@@ -8,16 +8,16 @@ This guide will help you receive testnet tokens. You can see all the deployed to
 
 - You have a wallet installed (e.g., [Rabby](https://rabby.io/), [MetaMask](https://metamask.io/)).
 
-## Receive some testnet Ether (TODO: holesky from configuration)
+## Receive some Holesky testnet Ether
 
-Taiko is currently deployed on Holesky testnet. You can get testnet Ether from various faucets. We won't clutter this page with a bunch of faucets, as you can find them easily online.
+Taiko is currently deployed on Holesky testnet. Check out [faucetlink.to](https://faucetlink.to/) for a list of faucets!
 
-Check out [faucetlink.to](https://faucetlink.to/) for a list of faucets!
+## Receive some Katla testnet tokens
 
-## Receive some dummy testnet tokens (TODO: bridge from configuration)
-
-HORSE is our deployed testnet token. Navigate to the [bridge](https://bridge.katla.taiko.xyz) and click "Faucet" on the sidebar to receive from HORSE.
+HORSE is our deployed testnet token (you can see all deployed contracts [here](/network-reference/deployed-contracts)). Navigate to the [bridge](https://bridge.katla.taiko.xyz) and click "Faucet" on the sidebar to receive from HORSE.
 
 ## Receive some TTKOk
 
-In order to receive TTKOk you need to have an SGX prover setup. See that here -> TODO(remove from here)
+:::note
+In order to receive TTKOk you need to have an SGX prover setup. We are working on an easy Docker setup to run the images if you have an SGX machine, and after verifying that you have an SGX machine we can send some TTKOk. Stay tuned for that!
+:::
