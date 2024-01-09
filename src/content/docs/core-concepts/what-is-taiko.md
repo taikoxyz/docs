@@ -28,11 +28,26 @@ But let's break down "What is Taiko" into some more specific components. Fundame
 
 ### Products operated by Taiko Labs
 
+#### Frontends
+
 - Bridge UI
-- Event indexer
-- Relayer
-- Block explorer
+- Blockscout block explorer
+- Network status page
 - Fork of Uniswap v4
+
+#### Non-critical backend infrastructure
+
+- Event indexer
+- Bridge relayer
+- P2P bootstrapping nodes
+- A few community proposers/provers
+
+#### Open source software
+
+- Taiko protocol smart contracts
+- Taiko geth
+- Taiko client
+- Raiko client
 
 ## Why Taiko and the Taiko protocol
 
