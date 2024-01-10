@@ -6,20 +6,20 @@ title: Deployed contracts
 
 | Contract Name        | Address                                      |
 | -------------------- | -------------------------------------------- |
-| TaikoL1              | `0x62Acda3Ad15B382C32B2fB21BEAc9DfB95bbb02F` |
-| RollupAddressManager | `0xF74340b7E8816FA0351be5AF5fDF91b28495B99A` |
-| ERC20Vault           | `0xA521d52Ae810A6B591234b726aeA549122d78347` |
-| ERC721Vault          | `0x55bf205678dF23781cF5be72ab223DbFAc058079` |
-| ERC1155Vault         | `0xFefDE79d88264E26fb1fea40f83b8C549d09075E` |
-| Bridge               | `0xa9242c7A736910357384c8Fe92870B74f8cBE784` |
-| SignalService        | `0xb36a8742CDeA0195f5e659DED165FeA0dCC9F485` |
-| SharedAddressManager | `0xC0999f99C3DB0DcC54d45d68335b80418F792EfD` |
-| TaikoToken           | `0x96635130cBE15fd368280eD5749D1e2969Cea55C` |
-| GuardianProver       | `0xCc0b744beDE9fdfA8f4868d5940121696425DEE6` |
-| AssignmentHook       | `0xb190786090Fc4308c4C40808f3bEB55c4463c152` |
-| TimelockController   | `0xA3c340551704Eba400E51eBA4899f0fc25cde45F` |
-| SgxVerifier          | `0xECCE9b2116ffb60d7286638b0D76790338dDcE47` |
-| HorseToken           | `0x73d9A99C4Bd6e5588DF7681a1Cd0D60E9b8B331c` |
+| TaikoL1              | `0xB20BB9105e007Bd3E0F73d63D4D3dA2c8f736b77` |
+| RollupAddressManager | `0xd331B9d877cA3B384ee837112C5A9eD4C3e11cd6` |
+| ERC20Vault           | `0x095DDce4fd8818aD159D778E6a9898A2474933ca` |
+| ERC721Vault          | `0x91bc040cABBB29A5A9520a47d575D3dda6EE4F05` |
+| ERC1155Vault         | `0x5d538f8D8e85598d2F118A16EE67c618a56d8c74` |
+| Bridge               | `0xf458747c6d6db57970dE80Da6474C0A3dfE94BF1` |
+| SignalService        | `0x08a3f537c4bbe8B6176420f4Cd0C84b02172dC65` |
+| SharedAddressManager | `0xD0C2587fa6E3C0B67c4D68561a59dB69439AbF2a` |
+| TaikoToken           | `0x8C5ac30834D3f85a66B1D19333232bB0a9ca2Db0` |
+| GuardianProver       | `0x714b6a4eA9b94A8a7D9FD362ed72630688C8898c` |
+| AssignmentHook       | `0x41e574f051Bd887024B4dEe2a7F684D6936c4488` |
+| TimelockController   | `0x63ca326B99651E7D0E42702dDb277747ea9E15dD` |
+| SgxVerifier          | `0xA30517F2Ee52634ddD9a3473FB50B162C772c84D` |
+| HorseToken           | `0x0469760d321D08AB4fce75E2E799902C9f55dA59` |
 
 ## Taiko (Katla)
 
