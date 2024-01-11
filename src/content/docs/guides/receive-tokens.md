@@ -2,7 +2,7 @@
 title: Receive tokens
 ---
 
-This guide will help you receive testnet tokens. You can see all the deployed tokens in the [contract address reference](/network-reference/contract-address-reference).
+This guide will help you receive testnet tokens. You can see all the deployed tokens in the [network address reference](/network-reference/addresses).
 
 ## Prerequisites
 

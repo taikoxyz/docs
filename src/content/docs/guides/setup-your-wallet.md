@@ -26,4 +26,4 @@ Click the buttons below to add the tokens to your wallet:
 
 ### The add buttons did not work
 
-If the add buttons did not work you can first try using [chainid.network](https://chainid.network/). If that doesn't work either, head over to the [RPC reference](/network-reference/rpc-reference) and [Contract address reference](/network-reference/contract-address-reference) pages and add them to your wallet manually.
+If the add buttons did not work you can first try using [chainid.network](https://chainid.network/). If that doesn't work either, head over to the [RPC reference](/network-reference/rpc-configuration) and [addresses reference](/network-reference/addresses) pages and add them to your wallet manually.

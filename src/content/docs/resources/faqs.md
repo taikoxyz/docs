@@ -20,7 +20,7 @@ Yes, Taiko is open source under the permissive MIT license (free to access and m
 
 ## Can I ignore these logs from my node?
 
-See [node troubleshooting](/resources/node-troubleshooting) for a list of node logs that can be ignored and which are errors.
+Join the Discord (`#errors-faq` channel) to see the node logs that can be ignored and which are errors.
 
 ## Where can I find the deployed contract addresses?
 
