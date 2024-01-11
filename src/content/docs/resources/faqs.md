@@ -24,7 +24,7 @@ See [node troubleshooting](/resources/node-troubleshooting) for a list of node l
 
 ## Where can I find the deployed contract addresses?
 
-See [deployed contracts](/network-reference/deployed-contracts) for a list of deployed contract addresses.
+See [deployed contracts](/network-reference/addresses) for a list of deployed contract addresses.
 
 ## I ran a node during a previous testnet do I need to do anything different?
 

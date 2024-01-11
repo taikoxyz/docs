@@ -1,8 +1,8 @@
 ---
-title: Deployed contracts
+title: Addresses
 ---
 
-## Ethereum (Holesky)
+## Ethereum (Holesky) contracts
 
 | Contract Name        | Address                                      |
 | -------------------- | -------------------------------------------- |
@@ -21,7 +21,7 @@ title: Deployed contracts
 | SgxVerifier          | `0xA30517F2Ee52634ddD9a3473FB50B162C772c84D` |
 | HorseToken           | `0x0469760d321D08AB4fce75E2E799902C9f55dA59` |
 
-## Taiko (Katla)
+## Taiko (Katla) contracts
 
 | Contract Name        | Address                                      |
 | -------------------- | -------------------------------------------- |
@@ -32,4 +32,21 @@ title: Deployed contracts
 | SignalService        | `0x1670080000000000000000000000000000000005` |
 | TaikoL2              | `0x1670080000000000000000000000000000010001` |
 | RollupAddressManager | `0x1670080000000000000000000000000000010002` |
-| BridgedHorse         | `0xd69d3e64d71844bbdda51cd7f23ed3631e9fac49` |
+| BridgedHorseToken    | `TODO`                                       |
+| BridgedTaikoToken    | `TODO`                                       |
+
+## Rollup contracts owner
+
+The rollup contracts owner can be found on the block explorer for the contracts shown above. The deployers public key is: `0x1D2D1bb9D180541E88a6a682aCf3f61c1605B190`. It is pre-minted with 1 billion TTKOk tokens and max uint128 ether.
+
+## Taiko Labs' proposers and provers addresses
+
+| Name                                                   | Address                                      |
+| ------------------------------------------------------ | -------------------------------------------- |
+| Proposer #1                                            | `0xe1E210594771824dAd216568B91c9Cb4CEED361C` |
+| Prover #1                                              | `0x230b361692abac7B70C6D697E2770E8c18ba1FC1` |
+| Prover #2 (with `--prover.proveUnassignedBlocks` flag) | `0x5D77525449ECf427F3460B4a046BEAd5cbFD6A0A` |
+
+## Taiko Labs' bootnode addresses
+
+Find the latest bootnodes here in [simple-taiko-node](https://github.com/taikoxyz/simple-taiko-node/blob/main/.env.sample).

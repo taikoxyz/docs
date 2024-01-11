@@ -14,7 +14,7 @@ Taiko is currently deployed on Holesky testnet. Check out [faucetlink.to](https:
 
 ## Receive some Katla testnet tokens
 
-HORSE is our deployed testnet token (you can see all deployed contracts [here](/network-reference/deployed-contracts)). Navigate to the [bridge](https://bridge.katla.taiko.xyz) and click "Faucet" on the sidebar to receive from HORSE.
+HORSE is our deployed testnet token (you can see all deployed contracts [here](/network-reference/addresses)). Navigate to the [bridge](https://bridge.katla.taiko.xyz) and click "Faucet" on the sidebar to receive from HORSE.
 
 ## Receive some TTKOk
 

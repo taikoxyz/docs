@@ -89,12 +89,12 @@ export default defineConfig({
           label: "Network Reference",
           items: [
             {
-              label: "Differences from Ethereum",
-              link: "/network-reference/differences-from-ethereum",
+              label: "Addresses",
+              link: "/network-reference/addresses",
             },
             {
-              label: "Deployed contracts",
-              link: "/network-reference/deployed-contracts",
+              label: "Differences from Ethereum",
+              link: "/network-reference/differences-from-ethereum",
             },
             {
               label: "RPC configuration",
