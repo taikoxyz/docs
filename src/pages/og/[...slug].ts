@@ -19,7 +19,11 @@ export const { getStaticPaths, GET } = OGImageRoute({
         fit: "cover",
         path: "./src/assets/taiko-og-bg.png",
       },
-      padding: 180,
+      border: {
+        color: [232, 24, 153],
+        width: 15,
+      },
+      padding: 60,
     };
   },
 });
