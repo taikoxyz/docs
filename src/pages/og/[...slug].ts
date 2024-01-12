@@ -15,13 +15,13 @@ export const { getStaticPaths, GET } = OGImageRoute({
       logo: {
         path: "./src/assets/taiko-og-logo.png",
       },
-      bgGradient: [
-        [6, 38, 45],
-        [8, 3, 2],
-      ],
+      bgImage: {
+        path: "./src/assets/taiko-og-bg.png",
+      },
       border: {
         width: 20,
         color: [232, 24, 153],
+        side: "inline-end",
       },
     };
   },
