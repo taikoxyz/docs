@@ -15,9 +15,13 @@ export const { getStaticPaths, GET } = OGImageRoute({
       logo: {
         path: "./src/assets/taiko-og-logo.png",
       },
-      bgImage: {
-        path: "./src/assets/taiko-og-bg.png",
-      },
+      // bgImage: {
+      //   path: "./src/assets/taiko-og-bg.png",
+      // },
+      bgGradient: [
+        [245, 195, 213], // A light pink for high contrast with the logo
+        [144, 19, 95], // A darker shade of pink for the lower part of the gradient
+      ],
       border: {
         width: 20,
         color: [232, 24, 153],
