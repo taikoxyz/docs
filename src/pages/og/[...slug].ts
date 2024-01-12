@@ -19,8 +19,8 @@ export const { getStaticPaths, GET } = OGImageRoute({
       //   path: "./src/assets/taiko-og-bg.png",
       // },
       bgGradient: [
-        [132, 24, 75], // Darker magenta, complementing your brand's pink
-        [25, 3, 20], // Nearly black, for a deep dark mode compatible background
+        [25, 3, 20], // Nearly black, for the top part of the gradient
+        [132, 24, 75], // Darker magenta, towards the bottom
       ],
       border: {
         width: 30,
