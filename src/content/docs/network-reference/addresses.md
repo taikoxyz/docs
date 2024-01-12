@@ -32,8 +32,8 @@ title: Addresses
 | SignalService        | `0x1670080000000000000000000000000000000005` |
 | TaikoL2              | `0x1670080000000000000000000000000000010001` |
 | RollupAddressManager | `0x1670080000000000000000000000000000010002` |
-| BridgedHorseToken    | `TODO`                                       |
-| BridgedTaikoToken    | `TODO`                                       |
+| BridgedHorseToken    | `0xD69d3e64D71844BBDdA51Cd7f23ED3631E9FAC49` |
+| BridgedTaikoToken    | `0x2a99837850543e223C134687f0c2B7E059873047` |
 
 ## Rollup contracts owner
 
