@@ -27,6 +27,12 @@ export const { getStaticPaths, GET } = OGImageRoute({
         width: 30,
         color: [232, 24, 153],
       },
+      fonts: ["./src/fonts/ClashGrotesk-Variable.ttf"],
+      font: {
+        title: {
+          families: ["Clash Grotesk"],
+        },
+      },
     };
   },
 });
