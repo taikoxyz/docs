@@ -17,11 +17,11 @@ export const { getStaticPaths, GET } = OGImageRoute({
       },
       bgImage: {
         path: "./src/assets/taiko-og-bg.png",
+        fit: "fill",
       },
       border: {
         width: 20,
         color: [232, 24, 153],
-        side: "inline-end",
       },
     };
   },
