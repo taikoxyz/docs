@@ -21,9 +21,7 @@ export const { getStaticPaths, GET } = OGImageRoute({
       },
       border: {
         color: [232, 24, 153],
-        width: 15,
       },
-      padding: 60,
     };
   },
 });
