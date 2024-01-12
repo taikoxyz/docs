@@ -16,7 +16,6 @@ export const { getStaticPaths, GET } = OGImageRoute({
         path: "./src/assets/taiko-og-logo.png",
       },
       bgImage: {
-        fit: "cover",
         path: "./src/assets/taiko-og-bg.png",
       },
       border: {
