@@ -20,7 +20,7 @@ export const { getStaticPaths, GET } = OGImageRoute({
       },
       border: {
         width: 60,
-        color: [232, 24, 153],
+        color: [0, 255, 0],
         side: "block-start",
       },
     };
