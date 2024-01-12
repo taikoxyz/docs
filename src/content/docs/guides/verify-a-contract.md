@@ -18,8 +18,8 @@ forge verify-contract 0x726819252e346278869d178084dA2cE10ac8A56D src/Counter.sol
 
 ## Verify a contract with Hardhat
 
-TODO
+Coming soon!
 
 ## Verify a contract with Blockscout
 
-TODO
+Coming soon!
