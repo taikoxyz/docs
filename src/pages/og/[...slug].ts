@@ -19,9 +19,10 @@ export const { getStaticPaths, GET } = OGImageRoute({
       //   path: "./src/assets/taiko-og-bg.png",
       // },
       bgGradient: [
-        [15, 2, 15], // Very dark purple, almost black, for the uppermost part
-        [58, 12, 36], // Medium dark purple as a transitional color
-        [132, 24, 75], // Your brand's darker magenta towards the bottom
+        [10, 1, 10], // Very dark purple, almost black, for the uppermost part
+        [45, 10, 30], // Dark purple for the upper-middle section
+        [80, 15, 45], // Medium dark purple for the middle section
+        [180, 20, 120], // A subdued version of your brand's pink for the bottom
       ],
       border: {
         width: 30,
