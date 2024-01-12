@@ -4,7 +4,7 @@ import starlightLinksValidator from "starlight-links-validator";
 
 // https://astro.build/config
 export default defineConfig({
-  // site: "https://docs.taiko.xyz",
+  site: "https://docs-git-alpha-6-taikoxyz.vercel.app",
   server: {
     host: true, // allow access from tailscale
   },
@@ -16,6 +16,7 @@ export default defineConfig({
       plugins: [starlightLinksValidator()],
       components: {
         SiteTitle: "./src/components/starlight/SiteTitle.astro",
+        Head: "./src/components/starlight/Head.astro",
       },
       title: "Docs",
       editLink: {
