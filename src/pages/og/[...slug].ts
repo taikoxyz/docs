@@ -20,9 +20,6 @@ export const { getStaticPaths, GET } = OGImageRoute({
       // Use the page title and description as the image title and description.
       title: page.data.title,
       description: page.data.description,
-      // Customize various colors and add a border.
-      //   bgGradient: [[24, 24, 27]],
-      //   border: { color: [63, 63, 70], width: 20 },
       bgImage: {
         fit: "cover",
         path: "./src/assets/taiko-og.png",
