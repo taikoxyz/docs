@@ -19,6 +19,7 @@ export const { getStaticPaths, GET } = OGImageRoute({
         path: "./src/assets/taiko-og-bg.png",
       },
       border: {
+        width: 60,
         color: [232, 24, 153],
       },
     };
