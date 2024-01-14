@@ -39,12 +39,12 @@ forge create src/Counter.sol:Counter \
 
 ## Deploy a contract using Hardhat
 
-TODO.
+Coming soon!
 
 ## Deploy a contract using Remix
 
-TODO.
+Coming soon!
 
 ## Deploy a contract using thirdweb
 
-TODO.
+Coming soon!

@@ -16,6 +16,8 @@ The thought process for Taiko is as follows:
 - [Based contestable rollup](/core-concepts/contestable-rollups): A configurable rollup to reduce transaction fees on Ethereum.
 - [Based booster rollup](/core-concepts/booster-rollups): An innovative approach to **native L1 scaling**.
 
+Taiko is as a **fully open source, permissionless, Ethereum-equivalent ZK-Rollup**. Using Taiko feels the exact same as using Ethereum. There are no centralized actors that operate the network; all operations are permissionlessly run by the community.
+
 ## The Taiko protocol
 
 - **Taiko Protocol**: A set of smart contracts deployed on Ethereum which describe the Taiko protocol, a fully open source scaling solution for Ethereum. In the most fundamental sense, this is what Taiko is. Even Taiko's governance itself is written into the protocol contracts.
