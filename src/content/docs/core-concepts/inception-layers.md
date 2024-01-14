@@ -1,5 +1,6 @@
 ---
 title: Inception layers
+description: Core concept page for "Inception layers".
 ---
 
 ## Horizontal scaling for Ethereum

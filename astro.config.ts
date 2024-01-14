@@ -4,9 +4,9 @@ import starlightLinksValidator from "starlight-links-validator";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://docs-git-alpha-6-taikoxyz.vercel.app",
+  site: "https://docs.taiko.xyz",
   server: {
-    host: true, // allow access from tailscale
+    host: true,
   },
   redirects: {
     "/": "/start-here/getting-started",

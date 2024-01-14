@@ -1,5 +1,6 @@
 ---
 title: What is Taiko?
+description: Core concept page for "What is Taiko?".
 ---
 
 :::note

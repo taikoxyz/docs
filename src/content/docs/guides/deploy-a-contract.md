@@ -1,6 +1,9 @@
 ---
 title: Deploy a contract
+description: This guide will help you deploy a smart contract on Taiko.
 ---
+
+This guide will help you deploy a smart contract on Taiko.
 
 ## Prerequisites
 

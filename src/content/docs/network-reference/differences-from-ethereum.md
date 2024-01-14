@@ -1,5 +1,6 @@
 ---
 title: Differences from Ethereum
+description: Network reference page describing the differences between Taiko and Ethereum.
 ---
 
 | Parameter        | Ethereum (Holesky) | Taiko (Katla)                 | Reasoning                                                                                                                |

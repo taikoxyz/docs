@@ -1,5 +1,6 @@
 ---
 title: Learning resources
+description: Resource page where we list various useful learning resources.
 ---
 
 ## Based rollups

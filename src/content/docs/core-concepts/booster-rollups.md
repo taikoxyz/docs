@@ -1,5 +1,6 @@
 ---
 title: Booster rollups
+description: Core concept page for "Booster rollups".
 ---
 
 Booster rollups are an innovative idea to scale L1 dapps directly (without the need for re-deploying to L2).

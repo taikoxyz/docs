@@ -1,5 +1,6 @@
 ---
 title: FAQs
+description: Resource page for listing out FAQs.
 ---
 
 ## What is Taiko?

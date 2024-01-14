@@ -1,6 +1,9 @@
 ---
 title: Verify a contract
+description: This guide will help you verify a smart contract on Taiko.
 ---
+
+This guide will help you verify a smart contract on Taiko.
 
 ## Prerequisites
 

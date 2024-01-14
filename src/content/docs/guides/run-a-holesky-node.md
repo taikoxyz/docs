@@ -1,5 +1,6 @@
 ---
 title: Run a Holesky node
+description: This guide will help you get a Holesky archive node up and running.
 ---
 
 This guide will help you get a Holesky archive node up and running.

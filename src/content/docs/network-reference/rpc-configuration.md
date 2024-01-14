@@ -1,5 +1,6 @@
 ---
 title: RPC configuration
+description: Network reference page describing Ethereum and Taiko RPC configurations.
 ---
 
 ## Ethereum (Holesky)

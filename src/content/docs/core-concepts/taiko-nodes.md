@@ -1,5 +1,6 @@
 ---
 title: Taiko nodes
+description: Core concept page for "Taiko nodes".
 ---
 
 Taiko nodes are minimally modified Ethereum [execution clients](https://ethereum.org/en/glossary/#execution-client) that consist of two parts:

@@ -1,5 +1,6 @@
 ---
 title: Contributing
+description: Learn how to contribute to Taiko.
 ---
 
 We'd love for any contribution you can make to Taiko. Welcome to the contributing manual!

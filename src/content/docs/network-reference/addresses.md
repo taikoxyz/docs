@@ -1,5 +1,6 @@
 ---
 title: Addresses
+description: Network reference page describing various important addresses on Taiko.
 ---
 
 ## Ethereum (Holesky) contracts

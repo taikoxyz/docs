@@ -5,7 +5,9 @@ export const collections = {
   docs: defineCollection({
     schema: docsSchema({
       extend: z.object({
-        description: z.string().length(160, "Must be 160 characters or less."),
+        description: z
+          .string()
+          .max(160, { message: "Must be 160 characters or less." })
       }),
     }),
   }),

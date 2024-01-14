@@ -1,8 +1,9 @@
 ---
 title: Receive tokens
+description: This guide will help you receive testnet tokens on Holesky and Taiko.
 ---
 
-This guide will help you receive testnet tokens. You can see all the deployed tokens in the [network address reference](/network-reference/addresses).
+This guide will help you receive testnet tokens on Holesky and Taiko.
 
 ## Prerequisites
 
@@ -10,11 +11,11 @@ This guide will help you receive testnet tokens. You can see all the deployed to
 
 ## Receive some Holesky testnet Ether
 
-Taiko is currently deployed on Holesky testnet. Check out [faucetlink.to](https://faucetlink.to/) for a list of faucets!
+Taiko (Katla) is currently deployed on Holesky testnet. Check out [faucetlink.to](https://faucetlink.to/) for a list of Holesky ether faucets!
 
 ## Receive some Katla testnet tokens
 
-HORSE is our deployed testnet token (you can see all deployed contracts [here](/network-reference/addresses)). Navigate to the [bridge](https://bridge.katla.taiko.xyz) and click "Faucet" on the sidebar to receive from HORSE.
+HORSE is a dummy testnet token we deployed on Taiko (Katla). You can see all deployed contracts [here](/network-reference/addresses). Navigate to the [bridge](https://bridge.katla.taiko.xyz) and click "Faucet" on the sidebar to receive some HORSE.
 
 ## Receive some TTKOk
 

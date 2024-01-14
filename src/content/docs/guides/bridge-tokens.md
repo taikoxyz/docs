@@ -1,8 +1,9 @@
 ---
 title: Bridge tokens
+description: This guide will help you use the bridge to send tokens between Sepolia and Taiko.
 ---
 
-This guide will help you use the bridge to send tokens between Sepolia and Taiko. You can read more about how bridging in the core concepts [here](/core-concepts/bridging).
+This guide will help you use the bridge to send tokens between Sepolia and Taiko.
 
 ## Prerequisites
 

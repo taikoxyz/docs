@@ -1,5 +1,6 @@
 ---
 title: Getting support
+description: Page listing out various resources to get support on Taiko.
 ---
 
 Stuck on something? Need some assistance? Here are a few different places you can get support.
