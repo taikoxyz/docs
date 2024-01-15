@@ -75,8 +75,8 @@ The bridge is a set of smart contracts and a frontend web app that allow you to 
 
 First, here is a flowchart of how our bridge dapp implementation works, which uses the signal service:
 
-![bridging send message flowchart](../../../assets/content/docs/core-concepts/bridging-send-message.excalidraw.png) \
-![bridging process message flowchart](../../../assets/content/docs/core-concepts/bridging-process-message.excalidraw.png)
+![bridging send message flowchart](~/assets/content/docs/core-concepts/bridging-send-message.excalidraw.png) \
+![bridging process message flowchart](~/assets/content/docs/core-concepts/bridging-process-message.excalidraw.png)
 
 ### How does Ether bridging work?
 
