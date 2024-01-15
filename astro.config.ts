@@ -103,6 +103,10 @@ export default defineConfig({
               link: "/network-reference/differences-from-ethereum",
             },
             {
+              label: "Network configuration",
+              link: "/network-reference/network-configuration",
+            },
+            {
               label: "RPC configuration",
               link: "/network-reference/rpc-configuration",
             },

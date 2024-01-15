@@ -3,6 +3,10 @@ title: Bridge tokens
 description: This guide will help you use the bridge to send tokens between Holesky and Taiko.
 ---
 
+:::note
+Please be aware, bridging back to L1 will take around 24hrs! See [network configuration](../network-reference/network-configuration.md) for the currently configured cooldown period.
+:::
+
 This guide will help you use the bridge to send tokens between Holesky and Taiko.
 
 ## Prerequisites
