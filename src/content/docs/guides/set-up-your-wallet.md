@@ -1,9 +1,9 @@
 ---
-title: Setup your wallet
-description: This guide will help you setup your wallet to start using Taiko.
+title: Set up your wallet
+description: This guide will help you set up your wallet to start using Taiko.
 ---
 
-This guide will help you setup your wallet to start using Taiko.
+This guide will help you set up your wallet to start using Taiko.
 
 ## Prerequisites
 
