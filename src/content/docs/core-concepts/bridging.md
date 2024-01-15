@@ -71,7 +71,7 @@ And boom! We have sent a cross-chain message. If this is confusing, you can also
 
 ## How the bridge works
 
-The bridge is a set of smart contracts and a frontend web app that allow you to send testnet ETH and ERC-20, ERC-1155 and ERC-721 tokens between Sepolia and Taiko. This bridge is just one possible implementation built on top of Taiko's core protocol, specifically the signal service which anybody can use to build bridges.
+The bridge is a set of smart contracts and a frontend web app that allow you to send testnet ETH and ERC-20, ERC-1155 and ERC-721 tokens between Ethereum and Taiko. This bridge is just one possible implementation built on top of Taiko's core protocol, specifically the signal service which anybody can use to build bridges.
 
 First, here is a flowchart of how our bridge dapp implementation works, which uses the signal service:
 
