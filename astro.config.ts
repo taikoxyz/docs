@@ -76,7 +76,10 @@ export default defineConfig({
         {
           label: "Guides",
           items: [
-            { label: "Setup your wallet", link: "/guides/setup-your-wallet/" },
+            {
+              label: "Set up your wallet",
+              link: "/guides/set-up-your-wallet/",
+            },
             { label: "Receive tokens", link: "/guides/receive-tokens/" },
             { label: "Bridge tokens", link: "/guides/bridge-tokens/" },
             { label: "Deploy a contract", link: "/guides/deploy-a-contract/" },
@@ -98,6 +101,10 @@ export default defineConfig({
             {
               label: "Differences from Ethereum",
               link: "/network-reference/differences-from-ethereum",
+            },
+            {
+              label: "Network configuration",
+              link: "/network-reference/network-configuration",
             },
             {
               label: "RPC configuration",

@@ -12,10 +12,10 @@ Here we will list the important folders within this repo.
 
 This is where we store all of the content.
 
-### src/domain/chains
+### src/content/config.ts
 
-In this folder we define some networks (Sepolia, Holesky, Taiko) declaratively / strictly so we can work with it easily / safely.
+This is where we extend the `docsSchema`.
 
 ## Contributing
 
-View [[CONTRIBUTING.md]] inside of the [Taiko monorepo](https://github.com/taikoxyz/taiko-mono/blob/main/CONTRIBUTING.md).
+View CONTRIBUTING.md inside of the [Taiko monorepo](https://github.com/taikoxyz/taiko-mono/blob/main/CONTRIBUTING.md).
