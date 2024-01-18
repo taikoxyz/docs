@@ -143,15 +143,17 @@ See the video tutorial [Run a Taiko L2 node (YouTube)](https://www.youtube.com/w
 
 First, you will need to have a prover from the marketplace. This prover must be able to generate SGX proofs. See the current tier configuration [here](/network-reference/network-configuration).
 
+Then you can set `PROVER_ENDPOINTS` in simple-taiko-node `.env` file to the prover's endpoint.
+
 ## Enable a prover
 
-Form: https://forms.gle/qquRq3cnGbyneV9S6
-
-Follow the guide here:
+1. Follow the guide here:
  
 - Raiko docker tutorial: https://github.com/johntaiko/zeth/blob/feat/taiko/README_Docker.md
-- Docker compose: https://github.com/johntaiko/zeth/blob/feat/taiko/docker/docker-compose-pos.yml
-- Running docker with `--init` will do the bootstrap: https://github.com/johntaiko/zeth/blob/feat/taiko/docker/entrypoint.sh
+- See docker compose config here: https://github.com/johntaiko/zeth/blob/feat/taiko/docker/docker-compose-pos.yml
+- Note: Running docker with `--init` will do the bootstrap: https://github.com/johntaiko/zeth/blob/feat/taiko/docker/entrypoint.sh
+
+2. Submit your public key to the form: https://forms.gle/qquRq3cnGbyneV9S6. After submitting we will manually register the public key and send you the necessary TTKOk.
 
 ## Full simple-taiko-node CLI reference
 
