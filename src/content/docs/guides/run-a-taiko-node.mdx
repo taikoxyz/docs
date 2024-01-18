@@ -141,11 +141,15 @@ See the video tutorial [Run a Taiko L2 node (YouTube)](https://www.youtube.com/w
 
 ## Enable a proposer
 
-First, you will need to have a prover from the marketplace. This prover must be able to generate SGX proofs. See the current tier configuration [here](/network-reference/network-configuration).
+1. First, you will need to have a prover from the marketplace. This prover must be able to generate SGX proofs. See the current tier configuration [here](/network-reference/network-configuration).
 
-Then you can set `PROVER_ENDPOINTS` in simple-taiko-node `.env` file to the prover's endpoint.
+2. Then you can set `PROVER_ENDPOINTS` in simple-taiko-node `.env` file to the prover's endpoint.
+
+3. Finally set `ENABLE_PROPOSER` to true in simple-taiko-node `.env`.
 
 ## Enable a prover
+
+TODO: explain how to enable ZK prover as well
 
 1. Follow the guide here:
  
