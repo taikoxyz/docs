@@ -7,7 +7,9 @@ description: The network configuration page describes many of the configuration 
 
 You can view the full `TaikoA6TierProvider` tier configuration [here](https://github.com/taikoxyz/taiko-mono/blob/alpha-6/packages/protocol/contracts/L1/tiers/TaikoA6TierProvider.sol):
 
-- Cooldown period: 24 hours
+Here is a diagram of the proof tier configuration:
+
+![alpha 6 proof tiers](~/assets/content/docs/network-reference/proof-tier-config.webp)
 
 ## Network configuration
 

@@ -8,7 +8,7 @@ import { Tabs, TabItem } from "@astrojs/starlight/components";
 This guide will help you start up a Taiko RPC node using simple-taiko-node.
 
 :::note
-You currently **cannot** run a proposer / prover on Taiko's Katla testnet. This is because a proposer needs access to an SGX prover, and to be an SGX prover you need TTKOk. We expect to distribute TTKOk to those who have an SGX machine soon. Keep a lookout for updates on this! For now, you can run a **plain RPC node** which is mainly useful for fun / development purposes.
+For now, you can run a **plain RPC node** which is mainly useful for fun / development purposes. There is some information below on starting an SGX / ZK-EVM prover, but the docs are a work in progress 🚧. Stay tuned for updates!
 :::
 
 ## Prerequisites
@@ -141,15 +141,13 @@ See the video tutorial [Run a Taiko L2 node (YouTube)](https://www.youtube.com/w
 
 ## Enable a proposer
 
-1. First, you will need to have a prover from the marketplace. This prover must be able to generate SGX proofs. See the current tier configuration [here](/network-reference/network-configuration).
+1. First, you will need to have a prover from the marketplace. This prover must be able to generate SGX and ZK-EVM proofs (for now, but will later plan to de-couple these proof markets). This is because it's unknown at the time of block proposal if the prover which provides the bond will need to generate an SGX or ZK proof. See the current tier configuration [here](/network-reference/network-configuration).
 
 2. Then you can set `PROVER_ENDPOINTS` in simple-taiko-node `.env` file to the prover's endpoint.
 
 3. Finally set `ENABLE_PROPOSER` to true in simple-taiko-node `.env`.
 
-## Enable a prover
-
-TODO: explain how to enable ZK prover as well
+## Enable an SGX prover
 
 1. Follow the guide here:
  
@@ -157,7 +155,11 @@ TODO: explain how to enable ZK prover as well
 - See docker compose config here: https://github.com/johntaiko/zeth/blob/feat/taiko/docker/docker-compose-pos.yml
 - Note: Running docker with `--init` will do the bootstrap: https://github.com/johntaiko/zeth/blob/feat/taiko/docker/entrypoint.sh
 
-2. Submit your public key to the form: https://forms.gle/qquRq3cnGbyneV9S6. After submitting we will manually register the public key and send you the necessary TTKOk.
+2. Submit your public key to the form: https://forms.gle/qquRq3cnGbyneV9S6. **Please do not spam submit to this form**. We do not expect too many folks to have SGX provers and that's okay! Only submit after you have generated your key pair with your SGX machine. After submitting we will manually register the public key and send you the necessary TTKOk.
+
+## Enable a ZK-EVM prover
+
+1. Check the `.env` in simple-taiko-node and edit the variables accordingly to start a prover.
 
 ## Full simple-taiko-node CLI reference
 
