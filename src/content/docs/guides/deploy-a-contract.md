@@ -82,9 +82,9 @@ contract Token is ERC20 {
 
 ![new file](~/assets/content/docs/guides/provider.png)
 
-- Then click `transact`
-
 ![new file](~/assets/content/docs/guides/transact.png)
+
+- Then click `transact`
 
 - Finally, verify the smart contract using [Blockscout](/guides/verify-a-contract/#verify-a-contract-with-hardhat-or-other-alternatives)
 
