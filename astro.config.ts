@@ -20,7 +20,7 @@ export default defineConfig({
       },
       title: "Docs",
       editLink: {
-        baseUrl: "https://github.com/taikoxyz/docs/edit/main/docs/",
+        baseUrl: "https://github.com/taikoxyz/docs/edit/main/",
       },
       customCss: ["./src/styles/custom.css"],
       logo: {
