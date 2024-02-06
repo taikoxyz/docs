@@ -20,7 +20,7 @@ export default defineConfig({
       },
       title: "Docs",
       editLink: {
-        baseUrl: "https://github.com/taikoxyz/docs/edit/main/docs/",
+        baseUrl: "https://github.com/taikoxyz/docs/edit/main/",
       },
       customCss: ["./src/styles/custom.css"],
       logo: {
@@ -90,6 +90,8 @@ export default defineConfig({
               link: "/guides/run-a-holesky-node/",
             },
             { label: "Run a Taiko node", link: "/guides/run-a-taiko-node/" },
+            { label: "Enable a proposer", link: "/guides/enable-a-proposer/" },
+            { label: "Enable a prover", link: "/guides/enable-a-prover/" },
           ],
         },
         {
