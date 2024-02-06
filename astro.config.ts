@@ -90,6 +90,8 @@ export default defineConfig({
               link: "/guides/run-a-holesky-node/",
             },
             { label: "Run a Taiko node", link: "/guides/run-a-taiko-node/" },
+            { label: "Enable a proposer", link: "/guides/enable-a-proposer/" },
+            { label: "Enable a prover", link: "/guides/enable-a-prover/" },
           ],
         },
         {
