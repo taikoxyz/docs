@@ -18,7 +18,13 @@ This is where we extend the `docsSchema`.
 
 ## Running Locally
 
-To run the Taiko docs website locally, you can use the following commands found in `package.json`:
+Before running the Taiko docs website locally, ensure you have installed all the necessary dependencies:
+
+```sh
+npm install
+```
+
+After the installation is complete, you can use the following commands found in `package.json`:
 
 - To start the development server and view the site at `http://localhost:4321/`, run:
   ```sh
