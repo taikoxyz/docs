@@ -109,9 +109,37 @@ First, open the `.env` in your preferred text editor:
 
   </TabItem>
   <TabItem label="Windows">
+
+    Open the `.env` file in Notepad with the command:
+
     ```sh
     notepad .env
     ```
+
+    Once the `.env` file is open in Notepad, you'll need to update the L1 archive node endpoints by locating and modifying specific lines:
+
+    1. **Find the Endpoint Configuration Lines**: Look for the lines that specify `L1_ENDPOINT_HTTP=` and `L1_ENDPOINT_WS=`. These are your HTTP and WebSocket endpoint configurations for the L1 archive node.
+
+    2. **Update HTTP Endpoint**: Directly add next to `L1_ENDPOINT_HTTP=` the actual L1 archive node's HTTP endpoint URL or IP address. For instance:
+        - If you are using an endpoint provided by a service provider, it might look like this:
+          ```
+          L1_ENDPOINT_HTTP=https://your-service-provider.com/rpc/YOUR_API_KEY
+          ```
+        Ensure no spaces are added before or after the `=` sign.
+
+    3. **Update WebSocket Endpoint**: Similarly, update the placeholder next to `L1_ENDPOINT_WS=` with your actual L1 archive node's WebSocket endpoint URL or IP address. For example:
+        - For a WebSocket URL provided by a service provider, you would update it to:
+          ```
+          L1_ENDPOINT_WS=wss://your-service-provider.com/ws/YOUR_API_KEY
+          ```
+        Make sure there are no spaces before or after the `=` sign.
+
+    4. **Save Your Changes**: After updating the endpoint URLs, go to the `File` menu in Notepad and select `Save` to keep your changes.
+
+    5. **Close Notepad**: With your `.env` file now correctly configured with the new L1 archive node endpoints, you can close Notepad.
+
+    By following these steps, you ensure that your Taiko node can connect to the L1 network using the correct endpoints. It's crucial to input accurate URLs as provided by your service provider or from your own L1 node setup to avoid connectivity issues.
+
   </TabItem>
 </Tabs>
 
