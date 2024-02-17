@@ -85,6 +85,7 @@ export default defineConfig({
             { label: "Swap tokens", link: "/guides/swap-tokens/" },
             {
               label: "Deploy a contract",
+              collapsed:true,
               items: [
                 {
                   label: "Using Hardhat",
