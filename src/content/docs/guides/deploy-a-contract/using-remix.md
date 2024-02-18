@@ -2,14 +2,14 @@
 title: Deploy a contract using Remix
 description: This guide will help you deploy a smart contract on Taiko using Remix.
 ---
-Deploying a smart contract can be straightforward using the Remix IDE, a powerful open-source tool that runs in the browser and provides an environment for writing Solidity smart contracts, compiling them, and deploying them to various Ethereum networks. This guide demonstrates deploying a Token smart contract on Taiko using Hardhat, highlighting the compatibility of Ethereum contracts with Taiko. 
+Deploying a smart contract can be straightforward using the Remix IDE, a powerful open-source tool that runs in the browser and provides an environment for writing Solidity smart contracts, compiling them, and deploying them to various Ethereum networks. This guide demonstrates deploying a `Token smart contract` on Taiko using Hardhat, highlighting the compatibility of Ethereum contracts with Taiko. 
 
 For a visual walkthrough, refer to our [video tutorial](https://www.loom.com/share/41dcd20628774d3bbcce5edf2647312f).
 
 ### Open Remix IDE
 Start by navigating to the Remix IDE at https://remix.ethereum.org.
 :::note
-Before proceeding further, it is required for you to set up your wallet. For guidance on this, please refer to the section [Set up your wallet](https://docs.taiko.xyz/guides/set-up-your-wallet/) .
+Before proceeding further, it is required for you to set up your wallet. For guidance on this, please refer to the section [Set up your wallet](/guides/set-up-your-wallet/) .
 :::
 
 ### Create a new `.sol` file
@@ -20,7 +20,7 @@ In the Remix file explorer, create a new Solidity file:
 - Name the file `Token.sol` or any other name you prefer.
 
 
-![new file](~/assets/content/docs/guides/newfile.png)
+    ![new file](~/assets/content/docs/guides/newfile.png)
 
 #### Example Code
 Copy and paste the following example code into your new file:
@@ -46,7 +46,7 @@ Before deploying, you need to compile the contract:
 - Select the compiler version `0.7.0+commit.9e61f92b` from the dropdown menu to match the version used in your contract.
 - Click the "Compile" button to compile your contract.
 
-![new file](~/assets/content/docs/guides/compiler.png)
+    ![new file](~/assets/content/docs/guides/compiler.png)
 
 ### Deploy the Contract
 
@@ -56,12 +56,12 @@ After compiling, switch to the deployment environment:
 - From the "Environment" dropdown, select "Injected Provider" to use a web3 provider like MetaMask.
 - Ensure your MetaMask (or other web3 provider) is connected to the desired network (e.g., Ethereum Mainnet, Ropsten Testnet).
 
-![new file](~/assets/content/docs/guides/provider.png)
+    ![new file](~/assets/content/docs/guides/provider.png)
 
 - Click the "Deploy" button to deploy your contract. MetaMask or your chosen web3 provider will prompt you to confirm the transaction.
 You can now check your deployed contract on [blockscout explorer](https://explorer.katla.taiko.xyz/) using the `deployed contract address`.
 
-![new file](~/assets/content/docs/guides/transact.png)
+    ![new file](~/assets/content/docs/guides/transact.png)
 
 - Then click `transact`
 

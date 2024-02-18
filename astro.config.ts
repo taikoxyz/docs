@@ -99,6 +99,10 @@ export default defineConfig({
                   label: "Using Remix",
                   link: "/guides/deploy-a-contract/using-remix/",
                 },
+                {
+                  label: "Using Thirdweb",
+                  link: "/guides/deploy-a-contract/using-thirdweb/", 
+                },
               ],
             },
             { label: "Verify a contract", link: "/guides/verify-a-contract/" },

@@ -3,7 +3,7 @@ title: Deploy a contract using Hardhat
 description: This guide will help you deploy a smart contract on Taiko using Hardhat.
 ---
 
-Hardhat is an Ethereum development environment for deploying smart contracts, running tests, and debugging Solidity code locally. It is one of the popular smart contract development frameworks. This guide demonstrates deploying a Lock smart contract on Taiko using Hardhat, highlighting the compatibility of Ethereum contracts with Taiko. 
+Hardhat is an Ethereum development environment for deploying smart contracts, running tests, and debugging Solidity code locally. It is one of the popular smart contract development frameworks. This guide demonstrates deploying a `Storage smart contract` on Taiko using Hardhat, highlighting the compatibility of Ethereum contracts with Taiko. 
 
 For a visual walkthrough, refer to our [video tutorial](https://www.loom.com/share/41dcd20628774d3bbcce5edf2647312f).
 
