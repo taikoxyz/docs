@@ -20,6 +20,8 @@ This guide will help you start up a Taiko RPC node using simple-taiko-node.
 
 Visit [stn](https://github.com/d1onys1us/stn) which has a simple copy-paste command to install `stn`.
 
+Note: If you already installed stn sometime ago, please update stn before moving forward. Installing and updating requires same commands so you can check out the link above for updating as well. 
+
 ### 2. Install a Taiko node
 
 ```sh
@@ -28,9 +30,14 @@ stn install
 
 ### 3. Config the Taiko node
 
+At this point, you will need Holesky endpoints. You can obtain them by running a [Holesky Node](https://docs.taiko.xyz/guides/run-a-holesky-node/), or using a RPC service. 
+If you don't want to run a Holesky Node you can use [BlockPI](https://blockpi.io), a Taiko Ekosystem Partner.
+
 ```sh
 stn config
 ```
+
+Note: Make sure to match the correct adresses with correct lines. (when asked https, use the adress that begins with https and when it asks wss, use the link that starts with wss)
 
 ### 4. Start the Taiko node
 
