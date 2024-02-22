@@ -4,7 +4,7 @@ description: This guide will help you deploy a smart contract on Taiko using Fou
 ---
 Any smart contract deployable to the Ethereum network can be deployed easily on Taiko. This guide demonstrates deploying a Counter smart contract on Taiko using Foundry, highlighting the compatibility of Ethereum contracts with Taiko. 
 
-For a visual walkthrough, refer to our video tutorial (coming soon).
+For a visual walkthrough, refer to our [video tutorial](https://drive.google.com/file/d/1ADSi_H-lV63Ji5qyXpg5_frDNXx6XVTD/view?usp=sharing).
 
 ## Set up the environment
 

@@ -4,7 +4,7 @@ description: This guide will help you deploy a smart contract on Taiko using Rem
 ---
 Deploying a smart contract can be straightforward using the Remix IDE, a powerful open-source tool that runs in the browser and provides an environment for writing Solidity smart contracts, compiling them, and deploying them to various Ethereum networks. This guide demonstrates deploying a `Token smart contract` on Taiko using Remix IDE, highlighting the compatibility of Ethereum contracts with Taiko. 
 
-For a visual walkthrough, refer to our video tutorial (coming soon).
+For a visual walkthrough, refer to our [video tutorial](https://drive.google.com/file/d/1SCgudWXP3mcfXmb2jIhTm13wcRsXM6Dn/view?usp=sharing).
 
 ### Open Remix IDE
 Start by navigating to the Remix IDE at https://remix.ethereum.org.
@@ -65,4 +65,6 @@ You can now check your deployed contract on [blockscout explorer](https://explor
 
 - Then click `transact`
 
-After setting up your contract for deployment, finalize the process by clicking the transact button. This action initiates the deployment transaction, prompting your web3 provider (e.g., MetaMask) to open a confirmation window. Review the transaction details, then confirm to deploy your contract to the blockchain. Once confirmed, your contract will be deployed, and you can track its deployment status in the Remix IDE's console output or on [blockscout explorer](https://explorer.katla.taiko.xyz/).
+After setting up your contract for deployment, finalize the process by clicking the transact button. This action initiates the deployment transaction, prompting your web3 provider (e.g., MetaMask) to open a confirmation window. 
+
+Review the transaction details, then confirm to deploy your contract to the blockchain. Once confirmed, your contract will be deployed, and you can track its deployment status in the Remix IDE's console output or on [blockscout explorer](https://explorer.katla.taiko.xyz/).

@@ -89,19 +89,19 @@ export default defineConfig({
               items: [
                 {
                   label: "Using Hardhat",
-                  link: "/guides/deploy-a-contract/using-hardhat/", 
+                  link: "/guides/using-hardhat/", 
                 },
                 {
                   label: "Using Foundry",
-                  link: "/guides/deploy-a-contract/using-foundry/",
+                  link: "/guides/using-foundry/",
                 },
                 {
                   label: "Using Remix",
-                  link: "/guides/deploy-a-contract/using-remix/",
+                  link: "/guides/using-remix/",
                 },
                 {
                   label: "Using Thirdweb",
-                  link: "/guides/deploy-a-contract/using-thirdweb/", 
+                  link: "/guides/using-thirdweb/", 
                 },
               ],
             },
