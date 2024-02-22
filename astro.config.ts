@@ -83,7 +83,28 @@ export default defineConfig({
             { label: "Receive tokens", link: "/guides/receive-tokens/" },
             { label: "Bridge tokens", link: "/guides/bridge-tokens/" },
             { label: "Swap tokens", link: "/guides/swap-tokens/" },
-            { label: "Deploy a contract", link: "/guides/deploy-a-contract/" },
+            {
+              label: "Deploy a contract",
+              collapsed:true,
+              items: [
+                {
+                  label: "Using Hardhat",
+                  link: "/guides/deploy-a-contract/using-hardhat/", 
+                },
+                {
+                  label: "Using Foundry",
+                  link: "/guides/deploy-a-contract/using-foundry/",
+                },
+                {
+                  label: "Using Remix",
+                  link: "/guides/deploy-a-contract/using-remix/",
+                },
+                {
+                  label: "Using Thirdweb",
+                  link: "/guides/deploy-a-contract/using-thirdweb/", 
+                },
+              ],
+            },
             { label: "Verify a contract", link: "/guides/verify-a-contract/" },
             {
               label: "Run a Holesky node",
