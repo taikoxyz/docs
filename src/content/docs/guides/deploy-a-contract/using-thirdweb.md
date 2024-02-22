@@ -4,7 +4,7 @@ description: This guide will help you deploy a smart contract on Taiko using Thi
 ---
 [Thirdweb](https://thirdweb.com/) offers a streamlined solution for deploying smart contracts to any EVM-compatible chain, including Taiko. By simplifying the deployment process, Thirdweb enables developers to focus on building without the hassle of managing private keys, RPC URLs, or deployment scripts. This guide demonstrates deploying a `Lock smart contract` on Taiko using Thirdweb, highlighting the compatibility of Ethereum contracts with Taiko.
 
-For a visual walkthrough, refer to our [video tutorial](https://drive.google.com/file/d/1sPtzs2yWerAIS_DXwgQ5JK5wgR2Amc-S/view?usp=sharing).
+For a visual walkthrough, refer to our video tutorial (coming soon).
 
 ## Set up the environment
 
