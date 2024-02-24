@@ -1,21 +1,43 @@
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+### 1. Open Remix IDE
 
-# Taiko docs
+https://remix.ethereum.org
 
-Welcome to Taiko docs!
+### 2. Create a new `.sol` file
 
-## Repo architecture
+![new file](~/assets/content/docs/guides/newfile.png)
 
-Here we will list the important folders within this repo.
+- Give it any name, for example `Counter.sol`.
+- Fill with this example code:
 
-### src/content
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.7.0;
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0-solc-0.7/contracts/token/ERC20/ERC20.sol";
+contract Token is ERC20 {
+    constructor () ERC20("Example Token Katla", "ETK") {
+        _mint(msg.sender, 1000000 * (10 ** uint256(decimals())));
+    }
+}
+```
 
-This is where we store all of the content.
+### 3. Compile
 
-### src/content/config.ts
+- Change the Compiler version to `0.7.0+commit.9e61f92b`
 
-This is where we extend the `docsSchema`.
+![new file](~/assets/content/docs/guides/compiler.png)
 
-## Contributing
+- Then compile it.
 
-View CONTRIBUTING.md inside of the [Taiko monorepo](https://github.com/taikoxyz/taiko-mono/blob/main/CONTRIBUTING.md).
+### 4. Deploy
+
+- Change the Environment to `Injected Provider`
+
+![new file](~/assets/content/docs/guides/provider.png)
+
+![new file](~/assets/content/docs/guides/transact.png)
+
+- Then click `transact`
+
+- Finally, verify the smart contract using [Blockscout](/guides/verify-a-contract/#verify-a-contract-with-hardhat-or-other-alternatives)
+
+## Deploy a contract using thirdweb
