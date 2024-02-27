@@ -90,4 +90,19 @@ contract Token is ERC20 {
 
 ## Deploy a contract using thirdweb
 
-Coming soon!
+### 1. Sign Up & Connect Wallet
+- Go to Thirdweb Website on https://thirdweb.com/dashboard
+- Click Sign In and Connect your Metamask Wallet
+- After succesfully connect, input `email` and `name`
+- Click `Get Started For Free`
+- Check your Email to get verification code from thridweb email
+- Back to thridweb and input the code
+- Click Verify.
+
+### 2. Deploy
+- Go to deploy page on https://thirdweb.com/dashboard/contracts/deploy
+- Click `Ready to Deploy`
+- For example to deploy Account factory, click `Account Factory`
+- Then click `Deploy now`
+- Then show pop up, and click `Deploy Now`
+- Confirm your transaction on Metamask
