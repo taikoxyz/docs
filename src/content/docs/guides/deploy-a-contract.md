@@ -102,7 +102,16 @@ contract Token is ERC20 {
 ### 2. Deploy
 - Go to deploy page on https://thirdweb.com/dashboard/contracts/deploy
 - Click `Ready to Deploy`
+
+![images](~/assets/content/docs/guides/Screenshot%202024-02-27%20131118.png)
+
 - For example to deploy Account factory, click `Account Factory`
+
+![images](~/assets/content/docs/guides/Screenshot%202024-02-27%20134247.png)
+
 - Then click `Deploy now`
 - Then show pop up, and click `Deploy Now`
+
+![images](~/assets/content/docs/guides/Screenshot%202024-02-27%20132626.png)
+
 - Confirm your transaction on Metamask
