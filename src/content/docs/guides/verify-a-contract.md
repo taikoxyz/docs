@@ -14,8 +14,8 @@ You have a contract deployed on Taiko and the source code available.
 Replace the contract address and filepath to contract below, and then execute in terminal to verify your contract.
 
 ```bash
-forge verify-contract 0x526317252e346978869d178081dA2cd10ac8b56D src/Counter.sol:Counter \
-  --verifier-url https://blockscoutapi.katla.taiko.xyz/api\? \
+forge verify-contract 0x526317252e346978869d178081dA2cd10ac8b56D Counter.sol:Counter \
+  --verifier-url "https://blockscoutapi.katla.taiko.xyz/api" \
   --verifier blockscout
 ```
 
