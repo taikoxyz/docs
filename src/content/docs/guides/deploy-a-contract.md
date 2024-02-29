@@ -39,7 +39,100 @@ forge create src/Counter.sol:Counter \
 
 ## Deploy a contract using Hardhat
 
-Coming soon!
+### 1. Installation NPM, Hardhat and dotenv
+To install it, you need to create an npm project by going to an empty folder, running ``npm init``, and following its instructions. You can use another package manager, like yarn, but we recommend you use npm 7 or later, as it makes installing Hardhat plugins simpler.
+
+Once your project is ready, you should run
+```bash
+npm install --save-dev hardhat
+```
+
+Also you should install dotenv to manage private key for deployment
+```bash
+npm install dotenv
+```
+
+### 2. Hardhat project setup
+We will explore the basics of creating a Hardhat project with a sample contract, tests of that contract, and a script to deploy it.
+To create the sample project, run 
+```bash
+npx hardhat init
+```
+in your project folder:
+````
+$ npx hardhat init
+888    888                      888 888               888
+888    888                      888 888               888
+888    888                      888 888               888
+8888888888  8888b.  888d888 .d88888 88888b.   8888b.  888888
+888    888     "88b 888P"  d88" 888 888 "88b     "88b 888
+888    888 .d888888 888    888  888 888  888 .d888888 888
+888    888 888  888 888    Y88b 888 888  888 888  888 Y88b.
+888    888 "Y888888 888     "Y88888 888  888 "Y888888  "Y888
+
+👷 Welcome to Hardhat v2.20.1 👷‍
+
+? What do you want to do? …
+❯ Create a JavaScript project
+  Create a TypeScript project
+  Create a TypeScript project (with Viem)
+  Create an empty hardhat.config.js
+  Quit
+````
+
+After that:
+````
+888    888                      888 888               888
+888    888                      888 888               888
+888    888                      888 888               888
+8888888888  8888b.  888d888 .d88888 88888b.   8888b.  888888
+888    888     "88b 888P"  d88" 888 888 "88b     "88b 888
+888    888 .d888888 888    888  888 888  888 .d888888 888
+888    888 888  888 888    Y88b 888 888  888 888  888 Y88b.
+888    888 "Y888888 888     "Y88888 888  888 "Y888888  "Y888
+
+Welcome to Hardhat v2.20.1
+
+√ What do you want to do? · Create a JavaScript project
+√ Hardhat project root: · C:\user\filename
+√ Do you want to add a .gitignore? (Y/n) · y
+√ Do you want to install this sample project's dependencies with npm (@nomicfoundation/hardhat-toolbox)? (Y/n) · y
+````
+### 2. Katla network configuration
+To set up your config, you have to export an object from ``hardhat.config.js``.
+For Taiko Katla network configuration:
+```javascript
+require("@nomicfoundation/hardhat-toolbox");
+require('dotenv').config();
+
+/** @type import('hardhat/config').HardhatUserConfig */
+module.exports = {
+  solidity: "0.8.20",
+  defaultNetwork: "Katla",
+  networks: {
+    hardhat: {
+    },
+    Katla: {
+      url: "https://rpc.katla.taiko.xyz",
+      accounts: [process.env.PRIVATE_KEY],
+    }
+  },
+};
+
+```
+❗️❗️❗️ Do not forget create a ``.env`` file and add the your private key in it. ``PRIVATE_KEY=abc..123``
+
+### 3. Compile
+To compile your contract, simply run:
+```bash
+npx hardhat compile
+```
+
+### 4. Deploy
+To deploy your contract, run this:
+```bash
+npx hardhat run --network Katla scripts/deploy.js
+```
 
 ## Deploy a contract using Remix
 
