@@ -98,7 +98,7 @@ Welcome to Hardhat v2.20.1
 √ Do you want to add a .gitignore? (Y/n) · y
 √ Do you want to install this sample project's dependencies with npm (@nomicfoundation/hardhat-toolbox)? (Y/n) · y
 ````
-### 2. Katla network configuration
+### 3. Katla network configuration
 To set up your config, you have to export an object from ``hardhat.config.js``.
 For Taiko Katla network configuration:
 ```javascript
@@ -122,13 +122,13 @@ module.exports = {
 ```
 ❗️❗️❗️ Do not forget create a ``.env`` file and add the your private key in it. ``PRIVATE_KEY=abc..123``
 
-### 3. Compile
+### 4. Compile
 To compile your contract, simply run:
 ```bash
 npx hardhat compile
 ```
 
-### 4. Deploy
+### 5. Deploy
 To deploy your contract, run this:
 ```bash
 npx hardhat run --network Katla scripts/deploy.js
