@@ -19,4 +19,4 @@ description: Network reference page describing Ethereum and Taiko RPC configurat
 | Chain ID           | 167008                                                         |
 | RPC                | See Katla chainlist [here](https://chainlist.org/chain/167008) |
 | Symbol             | ETH                                                            |
-| Block explorer URL | https://explorer.katla.taiko.xyz                               |
+| Block explorer URL | https://katla.taikoscan.network                                |
