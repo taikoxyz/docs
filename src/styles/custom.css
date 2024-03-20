@@ -28,3 +28,12 @@
   --sl-color-gray-7: #f5f6f8;
   --sl-color-black: #ffffff;
 }
+
+.site-title a:hover {
+  padding-top: 1%; 
+}
+
+.site-title a:hover svg {
+    --hover-offset:0; 
+}
+
