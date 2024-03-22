@@ -33,6 +33,17 @@ export default defineConfig({
         discord: "https://discord.gg/taikoxyz",
         youtube: "https://youtube.com/@taikoxyz",
       },
+      defaultLocale: "root",
+      locales: {
+        root: {
+          label: 'English',
+          lang: 'en'
+        },
+        fr : {
+          label: 'French',
+          lang: 'fr'
+        },
+      },
       sidebar: [
         {
           label: "Start Here",
