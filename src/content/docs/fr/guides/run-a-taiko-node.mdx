@@ -1,0 +1,263 @@
+---
+title: Exécuter un nœud Taiko
+description: Ce guide vous aidera à démarrer un nœud Taiko RPC à l'aide de simple-taiko-node.
+---
+
+import { Tabs, TabItem } from "@astrojs/starlight/components";
+
+Ce guide vous aidera à démarrer un nœud Taiko RPC à l'aide de simple-taiko-node.
+
+## Conditions préalables
+
+- [Docker](https://docs.docker.com/engine/install/) est installé et **en cours d'exécution** .
+- [Git](https://github.com/git-guides/install-git/) est installé.
+- Si vous utilisez Windows, vous devez installer [Git BASH](https://gitforwindows.org/) ou [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) à utiliser comme terminal.
+- Meet the  except for the storage requirement because Taiko nodes will require less storage (at the time of writing).
+- Répondez à la [configuration matérielle minimale requise par Geth](https://github.com/ethereum/go-ethereum#hardware-requirements), à l'exception des exigences de stockage, car les nœuds Taiko nécessiteront moins de stockage (au moment de la rédaction).
+
+## Exécutez un nœud Taiko avec `stn`
+
+### 1. Installer `stn`
+
+Visitez [stn](https://github.com/d1onys1us/stn) qui a une simple commande copier-coller pour installer `stn`.
+
+### 2. Installez un nœud Taiko
+
+```sh
+stn install
+```
+
+### 3. Configurez le nœud Taiko en tant que nœud complet
+
+```sh
+stn config full
+```
+
+### 4. Démarrez le nœud Taiko
+
+```sh
+stn up
+```
+
+### 5. Vérifiez que le nœud Taiko est en cours d'exécution et correctement synchronisé
+
+
+Pour afficher l'état de synchronisation, vous pouvez exécuter :
+
+```sh
+stn status
+```
+
+Vous pouvez également visualiser le tableau de bord avec :
+
+```sh
+stn dashboard
+```
+
+## Exécutez un nœud Taiko avec simple-taiko-node
+
+
+### 1. Cloner un nœud simple-taiko
+
+<Tabs>
+  <TabItem label="Mac/Linux">
+    ```sh
+    git clone https://github.com/taikoxyz/simple-taiko-node.git
+    cd simple-taiko-node
+    ```
+  </TabItem>
+  <TabItem label="Windows">
+    ```sh
+    git clone https://github.com/taikoxyz/simple-taiko-node.git
+    cd simple-taiko-node && git config core.autocrlf false
+    ```
+  </TabItem>
+</Tabs>
+
+### 2. Copiez les exemples de fichiers .env
+
+```sh
+cp .env.sample .env
+```
+
+### 3. Définissez le point de terminaison du nœud d'archive L1
+
+Tout d'abord, ouvrez le `.env` dans votre éditeur de texte préféré :
+
+<Tabs>
+  <TabItem label="Mac/Linux">
+    ```sh
+    nano .env
+    ```
+  </TabItem>
+  <TabItem label="Windows">
+    ```sh
+    notepad .env
+    ```
+  </TabItem>
+</Tabs>
+
+:::Remarque
+Vous pouvez utiliser n'importe quel point de terminaison Holesky L1, mais il doit pointer vers un nœud d'archive pour accéder au trie d'état au-delà des 128 derniers blocs.
+Il est recommandé d'[exécuter un nœud Holesky local](/guides/run-a-holesky-node), mais vous recherchez d'autres [fournisseurs Holesky RPC](https://chainlist.org/chain/17000). Gardez à l'esprit qu'ils **finiront par limiter le débit de votre nœud** et qu'il cessera de se synchroniser, un nœud L1 local est donc recommandé pour une configuration appropriée.
+:::
+
+Ensuite, vous définirez les points de terminaison du nœud d’archive L1. Si vous exécutez un nœud Holesky local, vous ne pouvez pas référencer les points de terminaison L1 au fur `http://127.0.0.1:8545` et `ws://127.0.0.1:8546` à mesure qu'ils sont locaux à l'intérieur du réseau Docker à nœud simple taiko. Au lieu de cela, vous pouvez essayer :
+
+- Utilisation `host.docker.internal` (voir : [stack overflow](https://stackoverflow.com/questions/24319662)).
+- En utilisant l'adresse IP privée de votre machine (utilisez quelque chose comme `ip addr show` pour obtenir cette adresse IP).
+
+Après avoir obtenu l'adresse du nœud d'archive Holesky, définissez les points de terminaison du nœud L1 suivants dans votre `.env` fichier. Voici un exemple:
+
+- `L1_ENDPOINT_HTTP=http://192.168.1.15:8545`
+- `L1_ENDPOINT_WS=ws://192.168.1.15:8546`
+
+
+### 4. Supprimez les anciens volumes testnet
+
+Si vous avez déjà exécuté un nœud testnet, assurez-vous de d'abord supprimer les anciens volumes :
+
+```sh
+docker compose down -v
+```
+
+### 5. Démarrez le nœud
+
+Assurez-vous que Docker est en cours d'exécution, puis exécutez la commande suivante pour démarrer le nœud (vous devrez peut-être l'utiliser `sudo docker compose up -d` si votre utilisateur n'est pas dans le `docker` groupe) :
+
+```sh
+docker compose up -d
+```
+
+### 6. Vérifiez que le nœud est en cours d'exécution
+
+#### Option 1 : Vérifiez auprès du tableau de bord du nœud
+
+Un tableau de bord de nœud s'exécutera `localhost` sur celui que `GRAFANA_PORT` vous avez défini dans votre `.env` fichier, qui est par défaut `3001` :[http://localhost:3001/d/L2ExecutionEngine/l2-execution-engine-overview](http://localhost:3001/d/L2ExecutionEngine/l2-execution-engine-overview).
+
+Vous pouvez vérifier que votre nœud se synchronise en vérifiant que la **tête de chaîne** sur le tableau de bord augmente. Une fois que la tête de chaîne correspond à ce qui se trouve sur l'explorateur de blocs, vous êtes entièrement synchronisé.
+
+#### Option 2 : Vérifiez avec les commandes curl
+
+1. Vérifiez si le client Execution Layer est connecté à Taiko L2 :
+
+```bash
+curl http://localhost:8547 \
+  -X POST \
+  -H "Content-Type: application/json" \
+  --data '{"method":"eth_chainId","params":[],"id":1,"jsonrpc":"2.0"}'
+```
+
+qui devrait renvoyer le chainId sous la forme `0x28c60` (167008) :
+
+```json
+{ "jsonrpc": "2.0", "id": 1, "result": "0x28c60" }
+```
+
+2. Vérifiez si le client Execution Layer est synchronisé en demandant le dernier bloc Taiko L2/L3 au client Execution Layer :
+
+```bash
+curl http://localhost:8547 \
+  -X POST \
+  -H "Content-Type: application/json" \
+  --data '{"method":"eth_blockNumber","params":[],"id":1,"jsonrpc":"2.0"}'
+```
+
+3. Si la valeur de la réponse blockNumber `0` augmente ou non, consultez les journaux Taiko L2 ici :
+
+```bash
+docker compose logs -f
+```
+
+> Remarque : vous devrez peut-être l'utiliser `sudo docker compose logs -f` si vous n'êtes pas dans le `docker` groupe.
+
+## Didacticiel vidéo
+
+Voir le didacticiel vidéo  [Exécuter un nœud Taiko L2 (YouTube)](https://www.youtube.com/watch?v=l_tVvDcuK5o) . C'est pour un testnet précédent mais les étapes globales sont les mêmes !
+
+## Référence CLI complète à simple-taiko-node
+
+#### Nœud de démarrage
+
+```sh
+docker compose up -d
+```
+
+#### Arrêter le nœud
+
+```sh
+docker compose down
+```
+
+#### Redémarrer le nœud
+
+```sh
+docker compose down && docker compose up -d
+```
+
+#### Mettre à jour le nœud
+
+```sh
+git pull origin main && docker compose pull
+```
+
+#### Supprimer le nœud
+
+```sh
+docker compose down -v
+```
+
+#### Démarrer et supprimer des conteneurs orphelins
+
+Cette commande démarrera et supprimera les conteneurs qui ne font pas partie du fichier de composition Docker actuel.
+
+```sh
+docker compose up -d --remove-orphans
+```
+
+#### Voir le tableau de bord de grafana
+
+```sh
+open http://localhost:3001/d/L2ExecutionEngine/l2-execution-engine-overview
+```
+
+#### Afficher tous les journaux
+
+```sh
+docker compose logs -f
+```
+
+#### Afficher les journaux d'exécution
+
+```sh
+docker compose logs -f l2_execution_engine
+```
+
+#### Afficher les journaux des pilotes clients
+
+```sh
+docker compose logs -f taiko_client_driver
+```
+
+#### Afficher les journaux des proposants des clients
+
+```sh
+docker compose logs -f taiko_client_proposer
+```
+
+#### Afficher les statistiques d'utilisation des ressources système
+
+```sh
+docker stats
+```
+
+#### Comparez .env et .env.sample
+
+```sh
+sdiff .env .env.sample
+```
+
+## Dépannage
+
+- Visitez le Discord pour obtenir de l’aide sur les codes d’erreur/problèmes courants.
+- Consultez les journaux du nœud (voir ci-dessus).
