@@ -19,7 +19,6 @@ Le logiciel [taiko-geth](https://github.com/taikoxyz/taiko-geth) est un fork de 
 
 Comme les moteurs d'exécution du réseau principal Ethereum, `taiko-geth` écoute les nouvelles transactions L2 diffusées sur le réseau L2, les exécute dans l'EVM et conserve le dernier état et la base de données de toutes les données L2 actuelles.
 
-You can see all the changes made in the `taiko-geth` fork at 
 Vous pouvez voir toutes les modifications apportées dans le `taiko-geth` fork sur [geth.taiko.xyz](https://geth.taiko.xyz) !
 
 ## Client taiko

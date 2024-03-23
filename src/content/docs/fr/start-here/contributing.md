@@ -54,7 +54,7 @@ Suivez le [format NatSpec](https://docs.soliditylang.org/en/latest/natspec-forma
 
 #### Style de commentaire
 
-Choisissez `///` plutôt ``/** */` les commentaires NatSpec multilignes pour plus de cohérence. Tous les commentaires NatSpec doivent utiliser `///` à la place de `/** */`. Des commentaires explicatifs supplémentaires doivent être utilisés `//`, même pour les commentaires sur plusieurs lignes.
+Choisissez `///` plutôt `/** */` les commentaires NatSpec multilignes pour plus de cohérence. Tous les commentaires NatSpec doivent utiliser `///` à la place de `/** */`. Des commentaires explicatifs supplémentaires doivent être utilisés `//`, même pour les commentaires sur plusieurs lignes.
 
 #### Étiquette de notification
 
