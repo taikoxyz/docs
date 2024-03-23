@@ -45,7 +45,7 @@ Spécifiez la portée de votre modification avec un [commit conventionnel](https
 
 Par exemple, `feat(scope): description of feature` cela ne devrait avoir un impact que sur le `scope` package. Si votre modification est globale, vous pouvez utiliser `feat: description de la feature`, par exemple.
 
-**Remarque :
+**Remarque** :
 L'équipe taiko évaluera tous les PR et pourra clôturer toute demande d'extraction qui ne respecte pas les normes décrites dans ce document. Veuillez noter que les petites demandes de tirage ne seront pas prises en compte pour les futurs parachutages. Nous encourageons les contributions qui apportent des améliorations significatives au projet.
 
 ### Commentaires sur le code source
