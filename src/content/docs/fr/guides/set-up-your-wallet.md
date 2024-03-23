@@ -17,10 +17,10 @@ Cliquez sur **Connect Wallet** sur les liens ci-dessous :
 
 ## Ajoutez des jetons à votre portefeuille
 
-Recherchez le jeton que vous souhaitez importer sur la page [des adresses](/fr/network-reference/addresses) et utilisez l'adresse pour l'ajouter à votre portefeuille.
+Recherchez le jeton que vous souhaitez importer sur la page [des adresses](/network-reference/addresses) et utilisez l'adresse pour l'ajouter à votre portefeuille.
 
 ## Dépannage
 
 ### Les boutons d'ajout n'ont pas fonctionné
 
-Si les boutons d'ajout n'ont pas fonctionné, accédez aux pages de [référence](/fr/network-reference/addresses) de configuration et d'adresses [RPC](/fr/network-reference/rpc-configuration) et ajoutez-les manuellement à votre portefeuille.
+Si les boutons d'ajout n'ont pas fonctionné, accédez aux pages de [référence](/network-reference/addresses) de configuration et d'adresses [RPC](/network-reference/rpc-configuration) et ajoutez-les manuellement à votre portefeuille.

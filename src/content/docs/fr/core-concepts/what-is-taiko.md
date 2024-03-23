@@ -3,7 +3,7 @@ title: Qu’est-ce que le Taiko ?
 description: Page conceptuelle de base pour « Qu'est-ce que le Taiko ? »
 ---
 
-:::Remarque
+:::note
 Cette page est un document vivant.
 :::
 

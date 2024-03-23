@@ -7,9 +7,9 @@ Les ponts sont fondamentaux pour les utilisateurs et les applications inter-cha�
 
 Expliquons le pontage sur Taiko. Nous répondrons aux questions suivantes :
 
-- [Comment le protocole Taiko permet-il une messagerie sécurisée entre chaînes ?](#cross-chain-messaging)
-- [Qu'est-ce que le service de signal Taiko ?](#the-signal-service)
-- [Comment fonctionne la mise en œuvre du pont de Taiko ?](#how-the-bridge-works)
+- [Comment le protocole Taiko permet-il une messagerie sécurisée entre chaînes ?](#messagerie-inter-chaînes)
+- [Qu'est-ce que le service de signal Taiko ?](#le-service-de-signalisation)
+- [Comment fonctionne la mise en œuvre du pont de Taiko ?](#comment-fonctionne-le-pont)
 
 ## Messagerie inter-chaînes
 

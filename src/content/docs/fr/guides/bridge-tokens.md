@@ -3,8 +3,8 @@ title: Jetons de pont
 description: Ce guide vous aidera à utiliser le pont pour envoyer des jetons entre Holesky et Taiko.
 ---
 
-:::Remarque
-Attention, le retour à la L1 prendra environ 24 heures ! Consultez la [configuration du réseau](/fr/network-reference/network-configuration) pour connaître la période de refroidissement actuellement configurée.
+:::note
+Attention, le retour à la L1 prendra environ 24 heures ! Consultez la [configuration du réseau](/network-reference/network-configuration) pour connaître la période de refroidissement actuellement configurée.
 :::
 
 Ce guide vous aidera à utiliser le pont pour envoyer des jetons entre Holesky et Taiko.
