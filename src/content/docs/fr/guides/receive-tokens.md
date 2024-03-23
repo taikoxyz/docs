@@ -18,6 +18,6 @@ HORSE est un jeton testnet factice que nous avons déployé sur Taiko (Katla). V
 
 ## Recevez du TTKOk
 
-:::Remarque
+:::note
 Afin de recevoir TTKOk, vous devez disposer d'une configuration de prouveur SGX. Nous travaillons sur une configuration Docker simple pour exécuter les images si vous avez une machine SGX, et après avoir vérifié que vous disposez d'une machine SGX, nous pouvons envoyer des TTKOk. Restez à l'écoute pour ça !
 :::

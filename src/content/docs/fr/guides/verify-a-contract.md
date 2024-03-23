@@ -18,7 +18,7 @@ forge verify-contract 0x526317252e346978869d178081dA2cd10ac8b56D src/Counter.sol
   --verifier blockscout
 ```
 
-:::Remarque
+:::note
 Pour certains utilisateurs, la commande ci-dessus ne fonctionne pas sur Blockscout (en cours d'investigation). Vous pouvez également essayer de passer un autre `--verifier-url` :
 
 ```bash "https://blockscoutapi.katla.taiko.xyz/api?module=contract&action=verify"
