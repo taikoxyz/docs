@@ -7,9 +7,9 @@ Nous serions ravis de toute contribution que vous pouvez apporter à Taiko. Bien
 
 **Table des matières:**
 
-- [Faire une contribution](#make-a-contribution)
-- [Normes de codage](#coding-standards)
-- [Normes documentaires](#documentation-standards)
+- [Faire une contribution](#faire-une-contribution)
+- [Normes de codage](#normes-de-codage)
+- [Normes documentaires](#normes-documentaires)
 
 ## Faire une contribution
 
@@ -20,7 +20,7 @@ Merci d'avoir exploré l'opportunité de contribuer à Taiko.xyz. Que vous soyez
 - Ouvrez un nouveau problème [ici](https://github.com/taikoxyz/taiko-mono/issues) (veuillez vérifier que le problème n'existe pas déjà).
 - Travaillez sur un problème existant (consultez la [liste des bons premiers problèmes ](https://github.com/orgs/taikoxyz/projects/9/views/31) sur notre tableau de projet public).
 
-Veuillez commenter le problème sur lequel vous souhaitez travailler. Consultez également les [ormes de codage](#coding-standards) et [les normes de documentation](#documentation-standards) vant de commencer à travailler sur la pull request.
+Veuillez commenter le problème sur lequel vous souhaitez travailler. Consultez également les [ormes de codage](#normes-de-codage) et [les normes de documentation](#normes-documentaires) vant de commencer à travailler sur la pull request.
 
 Une fois la demande d'extraction fusionnée avec l'un des référentiels GitHub de Taiko (vous pouvez voir quels référentiels ici : [2023 Taiko Contributor GitPOAP](https://www.gitpoap.io/gp/893)), vous recevrez automatiquement un Taiko Contributor GitPOAP. L'ouverture d'un bon nouveau numéro (pas un problème de spam) est également éligible pour un GitPOAP, laissez simplement un commentaire et nous invoquerons manuellement un robot GitHub qui enverra le GitPOAP.
 
