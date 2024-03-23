@@ -14,7 +14,7 @@ Taiko (Katla) est actuellement déployé sur Holesky testnet. Consultez [faucetl
 
 ## Recevez des jetons Katla testnet
 
-HORSE est un jeton testnet factice que nous avons déployé sur Taiko (Katla). Vous pouvez voir tous les contrats déployés [ici](/fr/network-reference/addresses). Accédez au [pont](https://bridge.katla.taiko.xyz) et cliquez sur « Robinet » dans la barre latérale pour recevoir du HORSE.
+HORSE est un jeton testnet factice que nous avons déployé sur Taiko (Katla). Vous pouvez voir tous les contrats déployés [ici](/network-reference/addresses). Accédez au [pont](https://bridge.katla.taiko.xyz) et cliquez sur « Robinet » dans la barre latérale pour recevoir du HORSE.
 
 ## Recevez du TTKOk
 

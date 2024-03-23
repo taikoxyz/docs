@@ -14,7 +14,7 @@ description: Ce guide vous aidera à activer votre nœud Taiko en tant que propo
 
 ## Utiliser un nœud simple-taiko
 
-1. Tout d’abord, vous aurez besoin d’un prouveur du [marché](/fr/resources/prover-marketplace) (’est la seule option car l’exécution de votre propre prouveur n’est actuellement pas prise en charge).
+1. Tout d’abord, vous aurez besoin d’un prouveur du [marché](/resources/prover-marketplace) (’est la seule option car l’exécution de votre propre prouveur n’est actuellement pas prise en charge).
 
 2. Ensuite, vous pouvez définir `PROVER_ENDPOINTS` le fichier simple-taiko-node `.env` sur le point final du prouveur.
 
