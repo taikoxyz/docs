@@ -22,7 +22,7 @@ Thank you for exploring the opportunity to contribute to Taiko.xyz. Whether you'
 
 Please comment on the issue that you're interested in working on. Also, check out the [coding standards](#coding-standards) and [documentation standards](#documentation-standards) before you start working on the pull request.
 
-Once the pull request is merged to one of Taiko's GitHub repositories (you can see which repositories here: [2023 Taiko Contributor GitPOAP](https://www.gitpoap.io/gp/893)), you will be automatically awarded a Taiko Contributor GitPOAP. Opening a good new issue (not a spam issue) is also eligible for a GitPOAP, just leave a comment and we will manually invoke a GitHub bot that will send the GitPOAP.
+Once the pull request is merged to one of Taiko's GitHub repositories (you can see which repositories here: [2024 Taiko Contributor GitPOAP](https://www.gitpoap.io/gp/1092)), you will be automatically awarded a Taiko Contributor GitPOAP. Opening a good new issue (not a spam issue) is also eligible for a GitPOAP, just leave a comment and we will manually invoke a GitHub bot that will send the GitPOAP.
 
 You can learn how to best contribute to Taiko by watching the [“Taiko Contributing Guide - Community Workshop”](https://www.youtube.com/watch?v=xMDSHT5C29c) video on our YouTube channel.
 
