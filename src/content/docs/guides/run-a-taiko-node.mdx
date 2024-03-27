@@ -85,14 +85,61 @@ First, open the `.env` in your preferred text editor:
 
 <Tabs>
   <TabItem label="Mac/Linux">
+    Open the `.env` file in a text editor like nano:
     ```sh
     nano .env
     ```
+
+    Locate the `L1_ENDPOINT_HTTP=` and `L1_ENDPOINT_WS=` lines, and update them with your actual endpoint URLs or IP addresses. Save your changes and exit.
+
+    Alternatively, if you prefer a command-line approach to directly replace your endpoints, run:
+
+    ```sh
+    sed "s|L1_ENDPOINT_HTTP=.*|L1_ENDPOINT_HTTP=<ENDPOINT_HTTP_URL>|" .env > .env.tmp && mv .env.tmp .env
+    sed "s|L1_ENDPOINT_WS=.*|L1_ENDPOINT_WS=<ENDPOINT_WS_URL>|" .env > .env.tmp && mv .env.tmp .env
+    ```
+
+    Replace `<ENDPOINT_HTTP_URL>` with your actual HTTP endpoint URL or IP address and port. For example:
+    - If using a URL provided by a service provider: e.g., `https://your-service-provider.com/rpc/YOUR_API_KEY`
+
+    Similarly, replace `<ENDPOINT_WS_URL>` with your WebSocket endpoint URL or IP address and port. For example:
+    - If using a URL provided by a service provider: e.g., `wss://your-service-provider.com/ws/YOUR_API_KEY`
+
+    Be sure to replace the placeholder URL with the actual endpoint URL specific to your setup. Depending on your service provider's requirements, this might include inserting an API key at the appropriate place within the URL. Follow the format provided by your service provider to ensure correct configuration.
+
   </TabItem>
   <TabItem label="Windows">
+
+    Open the `.env` file in Notepad with the command:
+
     ```sh
     notepad .env
     ```
+
+    Once the `.env` file is open in Notepad, you'll need to update the L1 archive node endpoints by locating and modifying specific lines:
+
+    1. **Find the Endpoint Configuration Lines**: Look for the lines that specify `L1_ENDPOINT_HTTP=` and `L1_ENDPOINT_WS=`. These are your HTTP and WebSocket endpoint configurations for the L1 archive node.
+
+    2. **Update HTTP Endpoint**: Directly add next to `L1_ENDPOINT_HTTP=` the actual L1 archive node's HTTP endpoint URL or IP address. For instance:
+        - If you are using an endpoint provided by a service provider, it might look like this:
+          ```
+          L1_ENDPOINT_HTTP=https://your-service-provider.com/rpc/YOUR_API_KEY
+          ```
+        Ensure no spaces are added before or after the `=` sign.
+
+    3. **Update WebSocket Endpoint**: Similarly, update the placeholder next to `L1_ENDPOINT_WS=` with your actual L1 archive node's WebSocket endpoint URL or IP address. For example:
+        - For a WebSocket URL provided by a service provider, you would update it to:
+          ```
+          L1_ENDPOINT_WS=wss://your-service-provider.com/ws/YOUR_API_KEY
+          ```
+        Make sure there are no spaces before or after the `=` sign.
+
+    4. **Save Your Changes**: After updating the endpoint URLs, go to the `File` menu in Notepad and select `Save` to keep your changes.
+
+    5. **Close Notepad**: With your `.env` file now correctly configured with the new L1 archive node endpoints, you can close Notepad.
+
+    By following these steps, you ensure that your Taiko node can connect to the L1 network using the correct endpoints. It's crucial to input accurate URLs as provided by your service provider or from your own L1 node setup to avoid connectivity issues.
+
   </TabItem>
 </Tabs>
 
@@ -102,7 +149,7 @@ You can use any Holesky L1 endpoint, but it must point to an archive node to acc
 It's recommended to [run a local Holesky node](/guides/run-a-holesky-node) but you browse around for other [Holesky RPC providers](https://chainlist.org/chain/17000). Keep in mind they will **eventually rate limit your node** and it will stop syncing, so a local L1 node is recommended for a proper setup.
 :::
 
-Next, you will set the L1 archive node endpoints. If you are running a local Holesky node, you cannot reference the L1 endpoints as `http://127.0.0.1:8545` and `ws://127.0.0.1:8546` because that is local to inside the simple-taiko-node Docker networking. Instead you can try:
+If you are running a local Holesky node, you cannot reference the L1 endpoints as `http://127.0.0.1:8545` and `ws://127.0.0.1:8546` because that is local to inside the simple-taiko-node Docker networking. Instead you can try:
 
 - Using `host.docker.internal` (see: [stack overflow](https://stackoverflow.com/questions/24319662)).
 - Using the private ip address of your machine (use something like `ip addr show` to get this ip address).
