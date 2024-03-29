@@ -35,9 +35,9 @@ Taiko is a **fully open source, permissionless, Ethereum-equivalent ZK-Rollup**.
 
 ### Frontends
 
-- [Bridge UI](https://bridge.katla.taiko.xyz)
+- [Bridge UI](https://bridge.hekla.taiko.xyz)
 - [Network + Guardian Prover status page](https://status.taiko.xyz)
-- [Fork of Uniswap v3 UI](https://swap.katla.taiko.xyz)
+- [Fork of Uniswap v3 UI](https://swap.hekla.taiko.xyz)
 - [Main homepage](https://taiko.xyz) + [this documentation site](https://docs.taiko.xyz)
 - [Geth fork diff page](https://geth.taiko.xyz)
 

@@ -3,7 +3,7 @@ title: Taiko Node API
 description: The Taiko Node API describes the various API surfaces of a Taiko node.
 ---
 
-Using a Taiko node should feel the same as using any other L1 node, because we essentially re-use the L1 client and make a few backwards-compatible modifications. You can first read about the aarchitecture of Taiko nodes [here](/core-concepts/taiko-nodes).
+Using a Taiko node should feel the same as using any other L1 node, because we essentially re-use the L1 client and make a few backwards-compatible modifications. You can first read about the architecture of Taiko nodes [here](/core-concepts/taiko-nodes).
 
 ## Differences from a Geth client
 

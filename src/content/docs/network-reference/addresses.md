@@ -22,7 +22,7 @@ description: Network reference page describing various important addresses on Ta
 | SgxVerifier          | `0xA30517F2Ee52634ddD9a3473FB50B162C772c84D` |
 | HorseToken           | `0x0469760d321D08AB4fce75E2E799902C9f55dA59` |
 
-## Taiko (Katla) contracts
+## Taiko (Hekla) contracts
 
 | Contract Name        | Address                                      |
 | -------------------- | -------------------------------------------- |

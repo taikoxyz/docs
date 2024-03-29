@@ -33,7 +33,7 @@ Deploy the contract located at `src/Counter.sol`. Replace `YOUR_PRIVATE_KEY` bel
 
 ```bash
 forge create src/Counter.sol:Counter \
-  --rpc-url https://rpc.katla.taiko.xyz \
+  --rpc-url https://rpc.hekla.taiko.xyz \
   --private-key YOUR_PRIVATE_KEY
 ```
 
@@ -62,7 +62,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0-solc-
 
 contract Token is ERC20 {
 
-    constructor () ERC20("Example Token Katla", "ETK") {
+    constructor () ERC20("Example Token Hekla", "ETH") {
         _mint(msg.sender, 1000000 * (10 ** uint256(decimals())));
     }
 }

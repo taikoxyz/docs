@@ -15,4 +15,4 @@ This guide will help you use the bridge to send tokens between Holesky and Taiko
 
 ## Bridge tokens
 
-Visit [the bridge](https://bridge.katla.taiko.xyz) and follow through the UI.
+Visit [the bridge](https://bridge.hekla.taiko.xyz) and follow through the UI.

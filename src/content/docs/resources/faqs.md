@@ -29,12 +29,12 @@ See [deployed contracts](/network-reference/addresses) for a list of deployed co
 
 ## I ran a node during a previous testnet do I need to do anything different?
 
-Yes, the lastest testnet (Katla) is deployed against Holesky. So you can shut down your Sepolia archive node, and spin up a Holesky archive node. You can also shut down your Taiko (Jolnir) node and run a Taiko (Katla) node. Check out our guides in the sidebar.
+Yes, the lastest testnet (Hekla) is deployed against Holesky. So you can shut down your Sepolia archive node, and spin up a Holesky archive node. You can also shut down your Taiko (Jolnir) node and run a Taiko (Hekla) node. Check out our guides in the sidebar.
 
 ## Does Taiko have a sequencer?
 
 Taiko does not have an L2 sequencer, since everyone can become a proposer permissionlessly. Ultimately the L1 Ethereum validator for the current block is the sequencer that can sequence multiple L2 blocks. This is also referred to as a **based rollup**.
 
-## How do I get ETH on the Taiko Katla network?
+## How do I get ETH on the Taiko Hekla network?
 
-You can use the official [Taiko bridge](https://bridge.katla.taiko.xyz/) to send your ETH from the Holesky network to the Taiko Katla network.
+You can use the official [Taiko bridge](https://bridge.hekla.taiko.xyz/) to send your ETH from the Holesky network to the Taiko Hekla network.

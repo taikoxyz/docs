@@ -15,15 +15,15 @@ Replace the contract address and filepath to contract below, and then execute in
 
 ```bash
 forge verify-contract 0x526317252e346978869d178081dA2cd10ac8b56D src/Counter.sol:Counter \
-  --verifier-url https://blockscoutapi.katla.taiko.xyz/api\? \
+  --verifier-url https://blockscoutapi.hekla.taiko.xyz/api\? \
   --verifier blockscout
 ```
 
 :::note
 For some users the above command does not work on Blockscout (currently investigating). You can also try passing a different `--verifier-url`:
 
-```bash "https://blockscoutapi.katla.taiko.xyz/api?module=contract&action=verify"
---verifier-url https://blockscoutapi.katla.taiko.xyz/api?module=contract&action=verify
+```bash "https://blockscoutapi.hekla.taiko.xyz/api?module=contract&action=verify"
+--verifier-url https://blockscoutapi.hekla.taiko.xyz/api?module=contract&action=verify
 ```
 
 :::
