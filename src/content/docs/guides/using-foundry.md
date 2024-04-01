@@ -1,8 +1,8 @@
 ---
-title: Deploy a contract using Foundary
-description: This guide will help you deploy a smart contract on Taiko using Foundary.
+title: Deploy a contract using Foundry
+description: This guide will help you deploy a smart contract on Taiko using Foundry.
 ---
-Any smart contract deployable to the Ethereum network can be deployed easily on Taiko. This guide demonstrates deploying a Counter smart contract on Taiko using Foundry, highlighting the compatibility of Ethereum contracts with Taiko. 
+Any smart contract deployable to the Ethereum network can be deployed easily on Taiko. This guide demonstrates this by deploying a Counter smart contract on Taiko using Foundry, highlighting the compatibility of Ethereum contracts with Taiko. 
 
 For a visual walkthrough, refer to our [video tutorial](https://drive.google.com/file/d/1ADSi_H-lV63Ji5qyXpg5_frDNXx6XVTD/view?usp=sharing).
 
@@ -106,4 +106,4 @@ Deployed to: 0x4054415432...
 Transaction hash: 0x6b4e0ff93a...
 ```
 
-You can now check your deployed contract on [blockscout explorer](https://explorer.katla.taiko.xyz/) using the `deployed contract address`.
+You can now check your deployed contract on [blockscout explorer](https://explorer.katla.taiko.xyz/) using the `"Deployed to: " contract address`.
