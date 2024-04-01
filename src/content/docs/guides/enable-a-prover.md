@@ -23,6 +23,6 @@ Next, click the **Connect to Web3** button.
 
 Next, click the **approve** function and set the spender address to the TaikoL1 contract address: `0xB20BB9105e007Bd3E0F73d63D4D3dA2c8f736b77`.
 
-Next, set the amount to at least the minimum bond amount of 2.5 TTKOk. You will need 2.5 TTKOk for each bond you sign. After entering 2.5, you need to set the 18 decimals that the TTKOk contract takes, you can click the plus button and then select 10^18.
+Next, set the amount to at least the minimum bond amount of 250 TTKOk. You will need 250 TTKOk for each bond you sign. After entering 250, you need to set the 18 decimals that the TTKOk contract takes, you can click the plus button and then select 10^18.
 
 Finally, click the **Write** button.
