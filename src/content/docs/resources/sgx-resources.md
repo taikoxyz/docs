@@ -1,8 +1,6 @@
 ---
 title: SGX resources
-description: Resource page for various pages useful for setting up SGX.
+description: Resource page where we various useful SGX resources.
 ---
-
-# Resources
 
 - https://github.com/ayeks/SGX-hardware#hardware-with-sgx2-support
