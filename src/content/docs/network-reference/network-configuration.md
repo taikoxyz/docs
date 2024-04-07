@@ -5,7 +5,7 @@ description: The network configuration page describes many of the configuration 
 
 ## Tier configuration
 
-You can view the full `TaikoA6TierProvider` tier configuration [here](https://github.com/taikoxyz/taiko-mono/blob/alpha-6/packages/protocol/contracts/L1/tiers/TaikoA6TierProvider.sol):
+You can view the full `TierProviderV1` tier configuration [here](https://github.com/taikoxyz/taiko-mono/blob/main/packages/protocol/contracts/L1/tiers/TierProviderV1.sol):
 
 Here is a diagram of the proof tier configuration:
 
@@ -13,4 +13,4 @@ Here is a diagram of the proof tier configuration:
 
 ## Network configuration
 
-You can view the full network configuration by visiting the TaikoL1 contract on Etherscan [here](https://holesky.etherscan.io/address/0xB20BB9105e007Bd3E0F73d63D4D3dA2c8f736b77#readProxyContract). Then connect your wallet, and select "Read as Proxy". You can then see the config details for the network.
+You can view the full network configuration by visiting the TaikoL1 contract on Etherscan [here](https://holesky.etherscan.io/address/0x79C9109b764609df928d16fC4a91e9081F7e87DB#readProxyContract). Then connect your wallet, and select "Read as Proxy". You can then see the config details for the network.

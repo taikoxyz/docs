@@ -17,8 +17,8 @@ Taiko (Hekla) is currently deployed on Holesky testnet. Check out [faucetlink.to
 
 HORSE is a dummy testnet token we deployed on Taiko (Hekla). You can see all deployed contracts [here](/network-reference/addresses). Navigate to the [bridge](https://bridge.hekla.taiko.xyz) and click "Faucet" on the sidebar to receive some HORSE.
 
-## Receive some TTKOk
+## Receive some TTKOh
 
 :::note
-In order to receive TTKOk you need to have an SGX prover setup. We are working on an easy Docker setup to run the images if you have an SGX machine, and after verifying that you have an SGX machine we can send some TTKOk. Stay tuned for that!
+In order to receive TTKOh you need to have an SGX prover setup. We are working on an easy Docker setup to run the images if you have an SGX machine, and after verifying that you have an SGX machine we can send some TTKOh. Stay tuned for that!
 :::

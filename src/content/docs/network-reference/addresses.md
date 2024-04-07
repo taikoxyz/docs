@@ -5,36 +5,39 @@ description: Network reference page describing various important addresses on Ta
 
 ## Ethereum (Holesky) contracts
 
-| Contract Name        | Address                                      |
-| -------------------- | -------------------------------------------- |
-| TaikoL1              | `0xB20BB9105e007Bd3E0F73d63D4D3dA2c8f736b77` |
-| RollupAddressManager | `0xd331B9d877cA3B384ee837112C5A9eD4C3e11cd6` |
-| ERC20Vault           | `0x095DDce4fd8818aD159D778E6a9898A2474933ca` |
-| ERC721Vault          | `0x91bc040cABBB29A5A9520a47d575D3dda6EE4F05` |
-| ERC1155Vault         | `0x5d538f8D8e85598d2F118A16EE67c618a56d8c74` |
-| Bridge               | `0xf458747c6d6db57970dE80Da6474C0A3dfE94BF1` |
-| SignalService        | `0x08a3f537c4bbe8B6176420f4Cd0C84b02172dC65` |
-| SharedAddressManager | `0xD0C2587fa6E3C0B67c4D68561a59dB69439AbF2a` |
-| TaikoToken           | `0x8C5ac30834D3f85a66B1D19333232bB0a9ca2Db0` |
-| GuardianProver       | `0x714b6a4eA9b94A8a7D9FD362ed72630688C8898c` |
-| AssignmentHook       | `0x41e574f051Bd887024B4dEe2a7F684D6936c4488` |
-| TimelockController   | `0x63ca326B99651E7D0E42702dDb277747ea9E15dD` |
-| SgxVerifier          | `0xA30517F2Ee52634ddD9a3473FB50B162C772c84D` |
-| HorseToken           | `0x0469760d321D08AB4fce75E2E799902C9f55dA59` |
+| Contract Name           | Address                                      |
+| ----------------------- | -------------------------------------------- |
+| TaikoL1                 | `0x79C9109b764609df928d16fC4a91e9081F7e87DB` |
+| RollupAddressManager    | `0x1F027871F286Cf4B7F898B21298E7B3e090a8403` |
+| ERC20Vault              | `0x2259662ed5dE0E09943Abe701bc5f5a108eABBAa` |
+| ERC721Vault             | `0x046b82D9010b534c716742BE98ac3FEf3f2EC99f` |
+| ERC1155Vault            | `0x9Ae5945Ab34f6182F75E16B73e037421F341fEe3` |
+| Bridge                  | `0xA098b76a3Dd499D3F6D58D8AcCaFC8efBFd06807` |
+| SignalService           | `0x6Fc2fe9D9dd0251ec5E0727e826Afbb0Db2CBe0D` |
+| SharedAddressManager    | `0x7D3338FD5e654CAC5B10028088624CA1D64e74f7` |
+| TaikoToken              | `0x6490E12d480549D333499236fF2Ba6676C296011` |
+| GuardianProver          | `0x92F195a8702da2104aE8E3E10779176E7C35d6BC` |
+| AssignmentHook          | `0x9e640a6aadf4f664CF467B795c31332f44AcBe6c` |
+| TimelockController      | `0x13cfc60c900a927C48f5c2a4923Ec9771a3A2805` |
+| SgxVerifier             | `0x532EFBf6D62720D0B2a2Bb9d11066E8588cAE6D9` |
+| automataDcapAttestation | `0xC6cD3878Fc56F2b2BaB0769C580fc230A95e1398` |
+| pemCertChainLib         | `0x08d7865e7F534d743Aba5874A9AD04bcB223a92E` |
+| HorseToken              | `0xa960d72F83A8A163412520A778b437AC5211A501` |
 
 ## Taiko (Hekla) contracts
 
 | Contract Name        | Address                                      |
 | -------------------- | -------------------------------------------- |
-| Bridge               | `0x1670080000000000000000000000000000000001` |
-| ERC20Vault           | `0x1670080000000000000000000000000000000002` |
-| ERC721Vault          | `0x1670080000000000000000000000000000000003` |
-| ERC1155Vault         | `0x1670080000000000000000000000000000000004` |
-| SignalService        | `0x1670080000000000000000000000000000000005` |
-| TaikoL2              | `0x1670080000000000000000000000000000010001` |
-| RollupAddressManager | `0x1670080000000000000000000000000000010002` |
-| BridgedHorseToken    | `0xD69d3e64D71844BBDdA51Cd7f23ED3631E9FAC49` |
-| BridgedTaikoToken    | `0x2a99837850543e223C134687f0c2B7E059873047` |
+| Bridge               | `0x1670090000000000000000000000000000000001` |
+| ERC20Vault           | `0x1670090000000000000000000000000000000002` |
+| ERC721Vault          | `0x1670090000000000000000000000000000000003` |
+| ERC1155Vault         | `0x1670090000000000000000000000000000000004` |
+| SignalService        | `0x1670090000000000000000000000000000000005` |
+| SharedAddressManager | `0x1670090000000000000000000000000000000006` |
+| TaikoL2              | `0x1670090000000000000000000000000000010001` |
+| RollupAddressManager | `0x1670090000000000000000000000000000010002` |
+| BridgedHorseToken    | `0x2029Ca1e4A5954781a271d6Fa3598bF4434969f5` |
+| BridgedTaikoToken    | `` |
 
 ## Rollup contracts owner
 
@@ -44,9 +47,9 @@ The rollup contracts owner can be found on the block explorer for the contracts 
 
 | Name                                                   | Address                                      |
 | ------------------------------------------------------ | -------------------------------------------- |
-| Proposer #1                                            | `0xe1E210594771824dAd216568B91c9Cb4CEED361C` |
-| Prover #1                                              | `0x230b361692abac7B70C6D697E2770E8c18ba1FC1` |
-| Prover #2 (with `--prover.proveUnassignedBlocks` flag) | `0x5D77525449ECf427F3460B4a046BEAd5cbFD6A0A` |
+| Proposer #1                                            | `0xEd1bA0Ba5661D648c7b3988DAC473F60403aff1e` |
+| Prover #1                                              | `0x7B399987D24FC5951f3E94A4cb16E87414bF2229` |
+| Prover #2 (with `--prover.proveUnassignedBlocks` flag) | `0x8Adb8C4d5214309612b53845E07C3Cb5BB4E8CF0` |
 
 ## Taiko Labs' bootnode addresses
 
