@@ -45,7 +45,7 @@ Coming soon!
 
 ### 1. Open Remix IDE
 
-https://remix.ethereum.org
+Visit <a href="https://remix.ethereum.org" target="_blank">Remix IDE</a>.
 
 ### 2. Create a new `.sol` file
 
