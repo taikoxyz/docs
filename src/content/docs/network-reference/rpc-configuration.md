@@ -19,4 +19,4 @@ description: Network reference page describing Ethereum and Taiko RPC configurat
 | Chain ID           | 167009                                                         |
 | RPC                | See Hekla chainlist [here](https://chainlist.org/chain/167009) |
 | Symbol             | ETH                                                            |
-| Block explorer URL | https://hekla.taikoscan.io                                     |
+| Block explorer URL | https://blockscoutapi.hekla.taiko.xyz/                         |
