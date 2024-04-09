@@ -10,7 +10,23 @@ description: This guide will you help you enable your Taiko node as a prover.
 ## Enable a prover with simple-taiko-node
 
 :::note
-A Taiko prover needs to be able to generate SGX proofs at the moment. We are **not distributing TTKOh** as we are reworking the SGX registration process to occur fully onchain. Please follow the README guide on our raiko [here](https://github.com/taikoxyz/raiko/blob/taiko/unstable/README_Docker.md) repository.
+We are **not distributing TTKOh** as we are reworking the SGX registration process to occur fully onchain. 
+:::
+
+1. A Taiko prover needs to be able to generate SGX proofs at the moment. Please follow the README guide on our raiko [here](https://github.com/taikoxyz/raiko/blob/taiko/unstable/README_Docker.md) repository.
+
+2. Then set the `SGX_RAIKO_HOST` endpoint in your `.env` file.
+
+3. Set the `L1_PROVER_PRIVATE_KEY` to an L1 account's private key which will send the Prove Block transactions.
+
+4. Set the `MIN_ACCEPTABLE_PROOF_FEE` to an amount that you deem sufficient.
+
+5. Finally set `ENABLE_PROVER` to `true` in simple-taiko-node `.env`.
+
+6. You can then run your prover with `docker compose --profile prover up -d`!
+
+:::note
+These are the bare minimum required settings along with a functional Taiko node to run a proposer, feel free to customize the rest of the variables in the .env file as you see fit!
 :::
 
 ### Approve TaikoL1 as TTKOh spender
