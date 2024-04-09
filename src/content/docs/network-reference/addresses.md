@@ -41,7 +41,7 @@ description: Network reference page describing various important addresses on Ta
 
 ## Rollup contracts owner
 
-The rollup contracts owner can be found on the block explorer for the contracts shown above. The deployers public key is: `0x1D2D1bb9D180541E88a6a682aCf3f61c1605B190`. It is pre-minted with 1 billion TTKOk tokens and max uint128 ether.
+The rollup contracts owner can be found on the block explorer for the contracts shown above. The deployers public key is: `0x1D2D1bb9D180541E88a6a682aCf3f61c1605B190`. It is pre-minted with 1 billion TTKOh tokens and max uint128 ether.
 
 ## Taiko Labs' proposers and provers addresses
 

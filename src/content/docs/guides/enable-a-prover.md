@@ -10,12 +10,12 @@ description: This guide will you help you enable your Taiko node as a prover.
 ## Enable a prover with simple-taiko-node
 
 :::note
-A Taiko prover needs to be able to generate **both** SGX and ZK proofs at the moment. We are **not distributing TTKOh** as we are reworking the SGX registration process to occur fully onchain.
+A Taiko prover needs to be able to generate SGX proofs at the moment. We are **not distributing TTKOh** as we are reworking the SGX registration process to occur fully onchain. Please follow the README guide on our raiko [here](https://github.com/taikoxyz/raiko/blob/taiko/unstable/README_Docker.md) repository.
 :::
 
 ### Approve TaikoL1 as TTKOh spender
 
-You will need TTKOk deposited on the TaikoL1 contract to secure the bond for the proofs you generate.
+You will need TTKOh deposited on the TaikoL1 contract to secure the bond for the proofs you generate.
 
 First, you will need to **approve the TaikoL1 contract as a spender**. Visit the TTKOh contract on Holesky [here](https://holesky.etherscan.io/address/0x6490E12d480549D333499236fF2Ba6676C296011#writeProxyContract).
 
