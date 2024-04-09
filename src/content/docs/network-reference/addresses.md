@@ -37,7 +37,7 @@ description: Network reference page describing various important addresses on Ta
 | TaikoL2              | `0x1670090000000000000000000000000000010001` |
 | RollupAddressManager | `0x1670090000000000000000000000000000010002` |
 | BridgedHorseToken    | `0x2029Ca1e4A5954781a271d6Fa3598bF4434969f5` |
-| BridgedTaikoToken    | `` |
+| BridgedTaikoToken    | `0xebf1f662bf092ff0d913a9fe9d7179b0efef1611` |
 
 ## Rollup contracts owner
 
