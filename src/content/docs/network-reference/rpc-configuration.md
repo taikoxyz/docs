@@ -20,3 +20,4 @@ description: Network reference page describing Ethereum and Taiko RPC configurat
 | RPC                | See Katla chainlist [here](https://chainlist.org/chain/167008) |
 | Symbol             | ETH                                                            |
 | Block explorer URL | https://katla.taikoscan.network                                |
+| Alternate explorer | https://taiko-katla.socialscan.io                              |
