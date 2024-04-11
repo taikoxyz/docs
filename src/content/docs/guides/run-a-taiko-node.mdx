@@ -193,13 +193,13 @@ docker compose up -d
 #### Stop node
 
 ```sh
-docker compose down
+docker compose --profile {PROFILE} down
 ```
 
 #### Restart node
 
 ```sh
-docker compose down && docker compose up -d
+docker compose --profile {PROFILE} down && docker compose --profile {PROFILE} up -d
 ```
 
 #### Update node
@@ -211,7 +211,7 @@ git pull origin main && docker compose pull
 #### Remove node
 
 ```sh
-docker compose down -v
+docker compose --profile {PROFILE} down -v
 ```
 
 #### Start and remove orphan containers
@@ -219,7 +219,7 @@ docker compose down -v
 This command will start and remove containers that are not part of the current docker compose file.
 
 ```sh
-docker compose --profile l2_execution_engine up -d --remove-orphans
+docker compose --profile {PROFILE} up -d --remove-orphans
 ```
 
 #### View grafana dashboard
@@ -231,7 +231,7 @@ open http://localhost:3001/d/L2ExecutionEngine/l2-execution-engine-overview
 #### View logs
 
 ```sh
-docker compose --profile {REPLACE_WITH_RESPECTIVE_PROFILE} logs -f
+docker compose --profile {PROFILE} logs -f
 ```
 
 #### View execution logs
