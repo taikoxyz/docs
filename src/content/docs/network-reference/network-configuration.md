@@ -9,7 +9,7 @@ You can view the full `TierProviderV1` tier configuration [here](https://github.
 
 Here is a diagram of the proof tier configuration:
 
-![alpha 6 proof tiers](~/assets/content/docs/network-reference/proof-tier-config.webp)
+![alpha 7 proof tiers](~/assets/content/docs/network-reference/proof-tier-config.webp)
 
 ## Network configuration
 

@@ -14,7 +14,7 @@ description: This guide will you help you enable your Taiko node as a proposer.
 
 ## Using simple-taiko-node
 
-1. First, you will need to have a prover from [the marketplace](/resources/prover-marketplace) (this is the only option as running your own prover is not currently supported).
+1. First, you will need to have a prover from [the marketplace](/resources/prover-marketplace) or [run your own SGX prover](/guides/enable-a-prover).
 
 2. Then you can set `PROVER_ENDPOINTS` in simple-taiko-node `.env` file to the prover's endpoint.
 

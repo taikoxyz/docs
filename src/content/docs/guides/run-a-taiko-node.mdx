@@ -128,8 +128,12 @@ docker compose down -v
 
 Make sure Docker is running and then run the following command to start the node (you may need to use `sudo docker compose up -d` if your user is not in the `docker` group):
 
+:::note
+This only starts the driver and l2 execution engine service, if you'd like to run a prover/proposer please visit those guides.
+:::
+
 ```sh
-docker compose up -d
+docker compose up --profile l2_execution_engine -d
 ```
 
 ### 6. Verify node is running
@@ -215,7 +219,7 @@ docker compose down -v
 This command will start and remove containers that are not part of the current docker compose file.
 
 ```sh
-docker compose up -d --remove-orphans
+docker compose --profile l2_execution_engine up -d --remove-orphans
 ```
 
 #### View grafana dashboard
@@ -224,10 +228,10 @@ docker compose up -d --remove-orphans
 open http://localhost:3001/d/L2ExecutionEngine/l2-execution-engine-overview
 ```
 
-#### View all logs
+#### View logs
 
 ```sh
-docker compose logs -f
+docker compose --profile {REPLACE_WITH_RESPECTIVE_PROFILE} logs -f
 ```
 
 #### View execution logs

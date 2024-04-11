@@ -48,6 +48,8 @@ Also in the `.env` file, set the value `ARCHIVE_NODE` to `true`:
 ARCHIVE_NODE=true
 ```
 
+This is no longer required to run a Taiko node.
+
 ### 5. Start Docker containers
 
 ```bash
