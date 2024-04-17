@@ -249,6 +249,8 @@ Before proceeding further, it is required for you to set up your wallet. For gui
 
 3. **Authorize Your Device**: A browser window will prompt you to connect and authorize your wallet. This step ensures secure deployment from your chosen wallet.
 
+ ![Authorize Device](~/assets/content/docs/guides/thirdweb-authorize.png)
+
 4. **Access the Deployment Link**: The CLI will provide a link. Open this link to proceed with deployment via the Thirdweb UI.
 
 5. **Complete Deployment Details**:
@@ -256,6 +258,8 @@ Before proceeding further, it is required for you to set up your wallet. For gui
     - Select `Taiko Network` from the Chain drop-down menu.
     - Opt for `Add to dashboard` if you wish to manage this contract from the Thirdweb dashboard.
     - Click `Deploy Now` and sign the transaction in your connected wallet.
+
+ ![Deployment Details](~/assets/content/docs/guides/thirdweb-deploy.png)
 
 For a more detailed documentation on deployments through Thirdweb using CLI, visit [Thirdweb CLI Docs](https://portal.thirdweb.com/cli).
 
