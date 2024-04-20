@@ -10,10 +10,10 @@ description: This guide will you help you enable your Taiko node as a prover.
 ## Enable a prover with simple-taiko-node
 
 :::note
-The SGX registration process now occurs fully onchain! By [registering through on-chain RA](https://github.com/taikoxyz/raiko/blob/on-chain-ra-docs/README_RA.md), TTKOh will be deposited to your prover's L1 Address.
+The SGX registration process now occurs fully onchain! By registering through on-chain RA, TTKOh will be deposited to your prover's L1 Address.
 :::
 
-1. A Taiko prover needs to be able to generate SGX proofs at the moment. Please follow the README guide on our [raiko](https://github.com/taikoxyz/raiko/blob/taiko/alpha-7/README_Docker.md) repository.
+1. A Taiko prover needs to be able to generate SGX proofs at the moment. Please follow the README guide on our [raiko](https://github.com/taikoxyz/raiko/blob/taiko/unstable/README_Docker_and_RA.md) repository.
 
 2. Then set the `SGX_RAIKO_HOST` endpoint in your `.env` file.
 
