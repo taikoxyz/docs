@@ -97,17 +97,19 @@ First, open the `.env` in your preferred text editor:
 </Tabs>
 
 :::note
-You can use any Holesky L1 endpoint, but it must point to an archive node to access the state trie beyond the last 128 blocks.
+You can use any Holesky L1 endpoint.
+
+The Holesky L1 node is no longer required to be an archive node to run a Taiko L1 node unless you want to prove blocks past the last 128 blocks.
 
 It's recommended to [run a local Holesky node](/guides/run-a-holesky-node) but you browse around for other [Holesky RPC providers](https://chainlist.org/chain/17000). Keep in mind they will **eventually rate limit your node** and it will stop syncing, so a local L1 node is recommended for a proper setup.
 :::
 
-Next, you will set the L1 archive node endpoints. If you are running a local Holesky node, you cannot reference the L1 endpoints as `http://127.0.0.1:8545` and `ws://127.0.0.1:8546` because that is local to inside the simple-taiko-node Docker networking. Instead you can try:
+Next, you will set the L1 node endpoints. If you are running a local Holesky node, you cannot reference the L1 endpoints as `http://127.0.0.1:8545` and `ws://127.0.0.1:8546` because that is local to inside the simple-taiko-node Docker networking. Instead you can try:
 
 - Using `host.docker.internal` (see: [stack overflow](https://stackoverflow.com/questions/24319662)).
 - Using the private ip address of your machine (use something like `ip addr show` to get this ip address).
 
-After getting the address of the Holesky archive node, set the following L1 node endpoints in your `.env` file. Here is an example:
+After getting the address of the Holesky node, set the following L1 node endpoints in your `.env` file. Here is an example:
 
 - `L1_ENDPOINT_HTTP=http://192.168.1.15:8545`
 - `L1_ENDPOINT_WS=ws://192.168.1.15:8546`
@@ -126,8 +128,12 @@ docker compose down -v
 
 Make sure Docker is running and then run the following command to start the node (you may need to use `sudo docker compose up -d` if your user is not in the `docker` group):
 
+:::note
+This only starts the driver and l2 execution engine service, if you'd like to run a prover/proposer please visit those guides.
+:::
+
 ```sh
-docker compose up -d
+docker compose up --profile l2_execution_engine -d
 ```
 
 ### 6. Verify node is running
@@ -187,13 +193,13 @@ docker compose up -d
 #### Stop node
 
 ```sh
-docker compose down
+docker compose --profile {PROFILE} down
 ```
 
 #### Restart node
 
 ```sh
-docker compose down && docker compose up -d
+docker compose --profile {PROFILE} down && docker compose --profile {PROFILE} up -d
 ```
 
 #### Update node
@@ -205,7 +211,7 @@ git pull origin main && docker compose pull
 #### Remove node
 
 ```sh
-docker compose down -v
+docker compose --profile {PROFILE} down -v
 ```
 
 #### Start and remove orphan containers
@@ -213,7 +219,7 @@ docker compose down -v
 This command will start and remove containers that are not part of the current docker compose file.
 
 ```sh
-docker compose up -d --remove-orphans
+docker compose --profile {PROFILE} up -d --remove-orphans
 ```
 
 #### View grafana dashboard
@@ -222,10 +228,10 @@ docker compose up -d --remove-orphans
 open http://localhost:3001/d/L2ExecutionEngine/l2-execution-engine-overview
 ```
 
-#### View all logs
+#### View logs
 
 ```sh
-docker compose logs -f
+docker compose --profile {PROFILE} logs -f
 ```
 
 #### View execution logs

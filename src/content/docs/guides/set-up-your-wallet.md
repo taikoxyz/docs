@@ -14,7 +14,7 @@ This guide will help you set up your wallet to start using Taiko.
 Click **Connect Wallet** at the links below:
 
 - Holesky testnet: https://chainlist.org/chain/17000
-- Katla testnet: https://chainlist.org/chain/167008
+- Hekla testnet: https://chainlist.org/chain/167009
 
 ## Add tokens to your wallet
 

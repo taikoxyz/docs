@@ -11,4 +11,4 @@ This guide will help you swap tokens on Taiko.
 
 ## Swap tokens
 
-Visit [the swap dapp](https://swap.katla.taiko.xyz) and follow through the UI.
+Visit [the swap dapp](https://swap.hekla.taiko.xyz) and follow through the UI.

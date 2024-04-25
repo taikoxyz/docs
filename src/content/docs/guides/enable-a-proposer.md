@@ -14,10 +14,18 @@ description: This guide will you help you enable your Taiko node as a proposer.
 
 ## Using simple-taiko-node
 
-1. First, you will need to have a prover from [the marketplace](/resources/prover-marketplace) (this is the only option as running your own prover is not currently supported).
+1. First, you will need to have a prover from [the marketplace](/resources/prover-marketplace) or [run your own SGX prover](/guides/enable-a-prover).
 
 2. Then you can set `PROVER_ENDPOINTS` in simple-taiko-node `.env` file to the prover's endpoint.
 
 3. Next, set the `L1_PROPOSER_PRIVATE_KEY` to an L1 account's private key which will send the Propose Block transactions.
 
-4. Finally set `ENABLE_PROPOSER` to `true` in simple-taiko-node `.env`.
+4. Then, set the `L2_SUGGESTED_FEE_RECIPIENT` to an L2 account's public key that will receive the fee.
+
+5. Finally set `ENABLE_PROPOSER` to `true` in simple-taiko-node `.env`.
+
+6. Now that the proposer is configured properly, you can run it with `docker compose --profile proposer -up -d`!
+
+:::note
+These are the bare minimum required settings along with a functional Taiko node to run a proposer, feel free to customize the rest of the variables in the .env file as you see fit!
+:::

@@ -12,12 +12,11 @@ description: Network reference page describing Ethereum and Taiko RPC configurat
 | Symbol             | ETH                                                             |
 | Block explorer URL | https://holesky.etherscan.io                                    |
 
-## Taiko (Katla)
+## Taiko (Hekla)
 
 | Name               | Value                                                          |
 | ------------------ | -------------------------------------------------------------- |
-| Chain ID           | 167008                                                         |
-| RPC                | See Katla chainlist [here](https://chainlist.org/chain/167008) |
+| Chain ID           | 167009                                                         |
+| RPC                | See Hekla chainlist [here](https://chainlist.org/chain/167009) |
 | Symbol             | ETH                                                            |
-| Block explorer URL | https://katla.taikoscan.network                                |
-| Alternate explorer | https://taiko-katla.socialscan.io                              |
+| Block explorer URL | https://hekla.taikoscan.network                                |
