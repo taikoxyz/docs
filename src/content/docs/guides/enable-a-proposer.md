@@ -24,7 +24,7 @@ description: This guide will you help you enable your Taiko node as a proposer.
 
 5. Finally set `ENABLE_PROPOSER` to `true` in simple-taiko-node `.env`.
 
-6. Now that the proposer is configured properly, you can run it with `docker compose --profile proposer -up -d`!
+6. Now that the proposer is configured properly, you can run it with `docker compose --profile proposer up -d`!
 
 :::note
 These are the bare minimum required settings along with a functional Taiko node to run a proposer, feel free to customize the rest of the variables in the .env file as you see fit!
