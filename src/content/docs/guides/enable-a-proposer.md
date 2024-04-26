@@ -16,7 +16,7 @@ description: This guide will you help you enable your Taiko node as a proposer.
 
 1. First, you will need to have a prover from [the marketplace](/resources/prover-marketplace) or [run your own SGX prover](/guides/enable-a-prover).
 
-2. Then you can set `PROVER_ENDPOINTS` in simple-taiko-node `.env` file to the prover's endpoint.
+2. You MUST set `PROVER_ENDPOINTS` in simple-taiko-node `.env` file to the your SGX prover's endpoint or one from the marketplace. If you do not set it and leave it default while not running a prover, **your proposer will not work**.
 
 3. Next, set the `L1_PROPOSER_PRIVATE_KEY` to an L1 account's private key which will send the Propose Block transactions.
 
