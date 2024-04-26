@@ -16,3 +16,5 @@ This guide will help you use the bridge to send tokens between Holesky and Taiko
 ## Bridge tokens
 
 Visit [the bridge](https://bridge.hekla.taiko.xyz) and follow through the UI.
+
+![image](https://github.com/taikoxyz/docs/assets/167110386/b474e79f-82f1-4222-81c5-13ae665a3549)
