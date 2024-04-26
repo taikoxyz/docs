@@ -30,7 +30,7 @@ The `driver` serves as an L2 consensus client. It listens for new L2 blocks from
 
 ### `proposer`
 
-The `proposer` fetches pending transactions from the L2 execution engine's mempool intervally pool, then tries to propose them to the `TaikoL1` protocol contract.
+The `proposer` fetches pending transactions from the L2 execution engine's mempool, then tries to propose them to the `TaikoL1` protocol contract.
 
 ### `prover`
 
