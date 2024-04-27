@@ -32,10 +32,11 @@ Make sure to enable Grafana dashboards.
 
 ### 3. Expose RPC ports
 
-To expose the node's RPC ports (for a Taiko node to make calls to it), you can append `el-shared.yml` to the list of files in the `COMPOSE_FILE` variable in your `.env` file:
+To expose the node's RPC ports (for a Taiko node to make calls to it) and to ensure all necessary configuration files are included, you can append both `el-shared.yml` and `cl-shared.yml` to the list of files in the `COMPOSE_FILE` variable in your `.env` file:
 
-```txt "el-shared.yml"
-COMPOSE_FILE=lighthouse-cl-only.yml:geth.yml:el-shared.yml
+
+```txt "el-shared.yml" "cl-shared.yml"
+COMPOSE_FILE=lighthouse-cl-only.yml:geth.yml:el-shared.yml:cl-shared.yml
 ```
 
 Keep in mind this is **not encrypted**, so you should not expose it to the internet. eth-docker offers a few other options that you can read about [here](https://eth-docker.net/Usage/Advanced#sharing-rpc-and-rest-ports).
