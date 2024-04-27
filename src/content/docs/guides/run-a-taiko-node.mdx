@@ -133,7 +133,7 @@ This only starts the driver and l2 execution engine service, if you'd like to ru
 :::
 
 ```sh
-docker compose up --profile l2_execution_engine -d
+docker compose --profile l2_execution_engine up -d
 ```
 
 ### 6. Verify node is running
@@ -155,10 +155,10 @@ curl http://localhost:8547 \
   --data '{"method":"eth_chainId","params":[],"id":1,"jsonrpc":"2.0"}'
 ```
 
-which should return the chainId as `0x28c60` (167008):
+which should return the chainId as `0x28c61` (167009):
 
 ```json
-{ "jsonrpc": "2.0", "id": 1, "result": "0x28c60" }
+{ "jsonrpc": "2.0", "id": 1, "result": "0x28c61" }
 ```
 
 2. Check if the Execution Layer client is synced by requesting the latest Taiko L2 / L3 block from the Execution Layer client:
