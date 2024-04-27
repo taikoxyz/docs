@@ -9,5 +9,6 @@ Any provers added to this page must be tested by the team to ensure they have go
 
 ## Prover marketplace list
 
-| Name   | Endpoint                              |
-| ------ | ------------------------------------- |
+| Name      | Endpoint                           |
+| --------- | ---------------------------------- |
+| Web3Crypt | http://taiko.web3crypt.net:9876/   |
