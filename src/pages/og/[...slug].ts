@@ -8,16 +8,13 @@ const pages = Object.fromEntries(entries.map(({ data, id }) => [id, { data }]));
 export const { getStaticPaths, GET } = OGImageRoute({
   pages,
   param: "slug",
-  getImageOptions: (_path, page: (typeof pages)[number]) => {
+  getImageOptions: async (path, page) => {
     return {
-      title: page.data.title,
-      description: page.data.description,
+      title: page.data.title || "", // Ensure title is not undefined
+      description: page.data.description || "", // Ensure description is not undefined
       logo: {
         path: "./src/assets/taiko-og-logo.png",
       },
-      // bgImage: {
-      //   path: "./src/assets/taiko-og-bg.png",
-      // },
       bgGradient: [
         [15, 2, 15],
         [58, 12, 36],
