@@ -14,7 +14,7 @@ This guide will help you start up a Taiko RPC node using simple-taiko-node.
 - If using Windows, you should install [Git BASH](https://gitforwindows.org/) or [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) to use as your terminal.
 - Meet the [Geth minimum hardware requirements](https://github.com/ethereum/go-ethereum#hardware-requirements) except for the storage requirement because Taiko nodes will require less storage (at the time of writing).
 
-## Run a Taiko node with `stn`
+<!-- ## Run a Taiko node with `stn`
 
 ### 1. Install `stn`
 
@@ -51,7 +51,7 @@ You can also view the dashboard with:
 
 ```sh
 stn dashboard
-```
+``` -->
 
 ## Run a Taiko node with simple-taiko-node
 
