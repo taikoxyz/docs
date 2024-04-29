@@ -7,10 +7,10 @@ description: This guide will you help you enable your Taiko node as a proposer.
 
 - You are already [running a Taiko node](/guides/run-a-taiko-node).
 
-## Using `stn`
+<!-- ## Using `stn`
 
 1. Install [stn](https://github.com/d1onys1us/stn) if you haven't already.
-2. Execute `stn config proposer` in your terminal and walk through the steps.
+2. Execute `stn config proposer` in your terminal and walk through the steps. -->
 
 ## Using simple-taiko-node
 
