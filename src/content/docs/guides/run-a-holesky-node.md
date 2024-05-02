@@ -40,13 +40,13 @@ COMPOSE_FILE=lighthouse-cl-only.yml:geth.yml:el-shared.yml:cl-shared.yml
 
 Keep in mind this is **not encrypted**, so you should not expose it to the internet. eth-docker offers a few other options that you can read about [here](https://eth-docker.net/Usage/Advanced#sharing-rpc-and-rest-ports).
 
-### 5. Start Docker containers
+### 4. Start Docker containers
 
 ```bash
 ./ethd up
 ```
 
-### 6. Check your node is running properly
+### 5. Check your node is running properly
 
 You can visit the [Grafana dashboard](https://eth-docker.net/Usage/Dashboards/#connecting-to-local-grafana) which should be running on `localhost:3000` to verify if your node is running correctly. You should see the chain head increasing.
 
