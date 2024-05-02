@@ -32,9 +32,9 @@ Make sure to enable Grafana dashboards.
 
 ### 3. Expose RPC ports
 
-To expose the node's RPC ports (for a Taiko node to make calls to it), you can append `el-shared.yml` and `cl-shared.yml` to the list of files in the `COMPOSE_FILE` variable in your `.env` file:
+To expose the node's RPC and REST ports (for a Taiko node to make calls to it), you can append `el-shared.yml` and `cl-shared.yml` to the list of files in the `COMPOSE_FILE` variable in your `.env` file:
 
-```txt "el-shared.yml and cl-shared.yml"
+```txt "el-shared.yml" "cl-shared.yml"
 COMPOSE_FILE=lighthouse-cl-only.yml:geth.yml:el-shared.yml:cl-shared.yml
 ```
 
