@@ -3,6 +3,8 @@ title: Run a Holesky node
 description: This guide will help you get a Holesky archive node up and running.
 ---
 
+import { Steps } from '@astrojs/starlight/components';
+
 This guide will help you get a Holesky archive node up and running.
 
 ## Prerequisites
@@ -13,42 +15,46 @@ This guide will help you get a Holesky archive node up and running.
 
 ## Steps
 
-### 1. Clone eth-docker
+<Steps>
 
-```bash
-git clone https://github.com/eth-educators/eth-docker
-cd eth-docker
-```
+1. Clone eth-docker
 
-### 2. Do the eth-docker quickstart config
+    ```bash
+    git clone https://github.com/eth-educators/eth-docker
+    cd eth-docker
+    ```
 
-Complete the [eth-docker quickstart](https://eth-docker.net/Usage/QuickStart/). You will need to run the config command:
+2. Do the eth-docker quickstart config
 
-```bash
-./ethd config
-```
+    Complete the [eth-docker quickstart](https://eth-docker.net/Usage/QuickStart/). You will need to run the config command:
 
-Make sure to enable Grafana dashboards.
+    ```bash
+    ./ethd config
+    ```
 
-### 3. Expose RPC ports
+    Make sure to enable Grafana dashboards.
 
-To expose the node's RPC and REST ports (for a Taiko node to make calls to it), you can append `el-shared.yml` and `cl-shared.yml` to the list of files in the `COMPOSE_FILE` variable in your `.env` file:
+3. Expose RPC ports
 
-```txt "el-shared.yml" "cl-shared.yml"
-COMPOSE_FILE=lighthouse-cl-only.yml:geth.yml:el-shared.yml:cl-shared.yml
-```
+    To expose the node's RPC and REST ports (for a Taiko node to make calls to it), you can append `el-shared.yml` and `cl-shared.yml` to the list of files in the `COMPOSE_FILE` variable in your `.env` file:
 
-Keep in mind this is **not encrypted**, so you should not expose it to the internet. eth-docker offers a few other options that you can read about [here](https://eth-docker.net/Usage/Advanced#sharing-rpc-and-rest-ports).
+    ```txt "el-shared.yml" "cl-shared.yml"
+    COMPOSE_FILE=lighthouse-cl-only.yml:geth.yml:el-shared.yml:cl-shared.yml
+    ```
 
-### 4. Start Docker containers
+    Keep in mind this is **not encrypted**, so you should not expose it to the internet. eth-docker offers a few other options that you can read about [here](https://eth-docker.net/Usage/Advanced#sharing-rpc-and-rest-ports).
 
-```bash
-./ethd up
-```
+4. Start Docker containers
 
-### 5. Check your node is running properly
+    ```bash
+    ./ethd up
+    ```
 
-You can visit the [Grafana dashboard](https://eth-docker.net/Usage/Dashboards/#connecting-to-local-grafana) which should be running on `localhost:3000` to verify if your node is running correctly. You should see the chain head increasing.
+5. Check your node is running properly
+
+    You can visit the [Grafana dashboard](https://eth-docker.net/Usage/Dashboards/#connecting-to-local-grafana) which should be running on `localhost:3000` to verify if your node is running correctly. You should see the chain head increasing.
+
+</Steps>
 
 ## Video tutorial
 
