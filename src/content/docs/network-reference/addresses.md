@@ -6,7 +6,7 @@ description: Network reference page describing various important addresses on Ta
 ## Ethereum (Holesky) contracts
 
 
-| Contract Name (Shared)          | Address                                      |
+| Contract Name (Shared)          | Address                              |
 | ----------------------- | -------------------------------------------- |
 | SharedAddressManager    | `0x7D3338FD5e654CAC5B10028088624CA1D64e74f7` |
 | TaikoToken              | `0x6490E12d480549D333499236fF2Ba6676C296011` |
@@ -17,7 +17,7 @@ description: Network reference page describing various important addresses on Ta
 | ERC1155Vault            | `0x9Ae5945Ab34f6182F75E16B73e037421F341fEe3` |
 
 
-| Contract Name (Rollup-Specific)         | Address                                      |
+| Contract Name (Rollup-Specific)         | Address                      |
 | ----------------------- | -------------------------------------------- |
 | TaikoL1                 | `0x79C9109b764609df928d16fC4a91e9081F7e87DB` |
 | RollupAddressManager    | `0x1F027871F286Cf4B7F898B21298E7B3e090a8403` |
@@ -29,7 +29,7 @@ description: Network reference page describing various important addresses on Ta
 
 ## Taiko (Hekla) contracts
 
-| Contract Name (Shared)       | Address                                      |
+| Contract Name (Shared)       | Address                              |
 | -------------------- | -------------------------------------------- |
 | Bridge               | `0x1670090000000000000000000000000000000001` |
 | ERC20Vault           | `0x1670090000000000000000000000000000000002` |
@@ -38,7 +38,7 @@ description: Network reference page describing various important addresses on Ta
 | SignalService        | `0x1670090000000000000000000000000000000005` |
 | SharedAddressManager | `0x1670090000000000000000000000000000000006` |
 
-| Contract Name (Rollup-Specific)        | Address                                      |
+| Contract Name (Rollup-Specific)        | Address                    |
 | -------------------- | -------------------------------------------- |
 | TaikoL2              | `0x1670090000000000000000000000000000010001` |
 | RollupAddressManager | `0x1670090000000000000000000000000000010002` |
