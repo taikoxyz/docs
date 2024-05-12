@@ -23,15 +23,15 @@ For the visual learners here is a visualization of the three stages (proposed ->
 
 **Proposed:**
 
-![proposed](~/assets/content/docs/core-concepts/proposed.png)
+![proposed](/src/assets/content/docs/core-concepts/proposed.png)
 
 **Proved:**
 
-![proved](~/assets/content/docs/core-concepts/proved.png)
+![proved](/src/assets/content/docs/core-concepts/proved.png)
 
 **Verified:**
 
-![verified](~/assets/content/docs/core-concepts/verified.png)
+![verified](/src/assets/content/docs/core-concepts/verified.png)
 
 ## Off chain prover market (PBS style)
 
@@ -76,10 +76,4 @@ In addition to ZK proofs, Taiko utilizes SGX (a Trusted Execution Environment de
 
 ## Video
 
-<iframe
-  src="https://www.youtube.com/embed/9LT6B1pgkI8?si=KFQxakvFTNdXwwvJ"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowFullScreen
-></iframe>
+[![Proposers and Provers on Taiko (Jolnir)](https://img.youtube.com/vi/9LT6B1pgkI8/0.jpg)](https://www.youtube.com/watch?v=9LT6B1pgkI8)
