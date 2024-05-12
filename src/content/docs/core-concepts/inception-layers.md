@@ -15,6 +15,6 @@ This is needed because a single rollup can only scale Ethereum so far before sta
 
 Further, Ethereum-equivalence across L2s, L3s, and beyond means inheriting some powerful properties, like built-in arbitrary message passing. This follows from the ability for one type-1 to read Merkle proofs from another. This combats a downside of having multiple chains: fears of fragmentation degrading the UX/DevX. With the different layers (adjacent and atop) easily able to speak to each other using Merkle proofs, a fragmented outcome can be avoided.
 
-![Inception layers diagram](~/assets/content/docs/core-concepts/inception-layers-diagram.png)
+![Inception layers diagram](/src/assets/content/docs/core-concepts/inception-layers-diagram.png)
 
-For more information on how Taiko's message passing works see the concept page on [Bridging](/core-concepts/bridging).
+For more information on how Taiko's message passing works see the concept page on [Bridging](/src/content/docs/core-concepts/bridging.md).
