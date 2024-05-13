@@ -3,6 +3,10 @@ title: FAQs
 description: Resource page for listing out FAQs.
 ---
 
+This page is divided between [General FAQs](#general-faqs) and [Developer FAQs](#developer-faqs).
+
+# General FAQs
+
 ## What is Taiko?
 
 Taiko is a fully permissionless and decentralized Ethereum-equivalent ZK-Rollup. This means using Taiko is exactly the same as using Ethereum. Not only does Taiko support all EVM opcodes, but it supports the full JSON-RPC execution client API.
@@ -38,3 +42,9 @@ Taiko does not have an L2 sequencer, since everyone can become a proposer permis
 ## How do I get ETH on the Taiko Hekla network?
 
 You can use the official [Taiko bridge](https://bridge.hekla.taiko.xyz/) to send your ETH from the Holesky network to the Taiko Hekla network.
+
+# Developer FAQs
+
+## How can I get the L1 block number from L2
+
+You can check the last synced L1 block height in the TaikoL2 contract [here](https://github.com/taikoxyz/taiko-mono/blob/c7f3143c763792806de2dffb09d35e756f4cb1e9/packages/protocol/contracts/L2/TaikoL2.sol#L41).
