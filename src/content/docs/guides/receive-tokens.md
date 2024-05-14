@@ -7,15 +7,15 @@ This guide will help you receive testnet tokens on Holesky and Taiko.
 
 ## Prerequisites
 
-- You have a wallet installed (e.g., [Rabby](https://rabby.io/), [MetaMask](https://metamask.io/)).
+- You have a wallet installed (e.g., <a href="https://rabby.io/" target="_blank" rel="noopener noreferrer">Rabby</a>, <a href="https://metamask.io/" target="_blank" rel="noopener noreferrer">MetaMask</a>).
 
 ## Receive some Holesky testnet Ether
 
-Taiko (Hekla) is currently deployed on Holesky testnet. Check out [faucetlink.to](https://faucetlink.to/) for a list of Holesky ether faucets!
+Taiko (Hekla) is currently deployed on Holesky testnet. Check out <a href="https://faucetlink.to/" target="_blank" rel="noopener noreferrer">faucetlink.to</a> for a list of Holesky ether faucets!
 
 ## Receive some Hekla testnet tokens
 
-HORSE is a dummy testnet token we deployed on Taiko (Hekla). You can see all deployed contracts [here](/network-reference/addresses). Navigate to the [bridge](https://bridge.hekla.taiko.xyz) and click "Faucet" on the sidebar to receive some HORSE.
+HORSE is a dummy testnet token we deployed on Taiko (Hekla). You can see all deployed contracts <a href="/network-reference/addresses" target="_blank" rel="noopener noreferrer">here</a>. Navigate to the <a href="https://bridge.hekla.taiko.xyz" target="_blank" rel="noopener noreferrer">bridge</a> and click "Faucet" on the sidebar to receive some HORSE.
 
 ## Receive some TTKOh
 

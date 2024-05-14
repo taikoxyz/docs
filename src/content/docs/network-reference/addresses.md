@@ -58,4 +58,4 @@ The rollup contracts owner can be found on the block explorer for the contracts 
 
 ## Taiko Labs' bootnode addresses
 
-Find the latest bootnodes here in [simple-taiko-node](https://github.com/taikoxyz/simple-taiko-node/blob/main/.env.sample).
+Find the latest bootnodes here in <a href="https://github.com/taikoxyz/simple-taiko-node/blob/main/.env.sample" target="_blank" rel="noopener noreferrer">simple-taiko-node</a>.

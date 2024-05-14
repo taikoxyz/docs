@@ -7,9 +7,9 @@ We'd love for any contribution you can make to Taiko. Welcome to the contributin
 
 **Table of contents:**
 
-- [Make a contribution](#make-a-contribution)
-- [Coding standards](#coding-standards)
-- [Documentation standards](#documentation-standards)
+- <a href="#make-a-contribution" target="_blank" rel="noopener noreferrer">Make a contribution</a>
+- <a href="#coding-standards" target="_blank" rel="noopener noreferrer">Coding standards</a>
+- <a href="#documentation-standards" target="_blank" rel="noopener noreferrer">Documentation standards</a>
 
 ## Make a contribution
 
@@ -17,14 +17,14 @@ Thank you for exploring the opportunity to contribute to Taiko.xyz. Whether you'
 
 **Here are some ways you can contribute:**
 
-- Open a new issue [here](https://github.com/taikoxyz/taiko-mono/issues) (please check the issue does not already exist).
-- Work on an existing issue (check out the [good first issues list](https://github.com/orgs/taikoxyz/projects/9/views/31) on our public project board).
+- Open a new issue <a href="https://github.com/taikoxyz/taiko-mono/issues" target="_blank" rel="noopener noreferrer">here</a> (please check the issue does not already exist).
+- Work on an existing issue (check out the <a href="https://github.com/orgs/taikoxyz/projects/9/views/31) on our public project board" target="_blank" rel="noopener noreferrer">good first issues list</a>.
 
-Please comment on the issue that you're interested in working on. Also, check out the [coding standards](#coding-standards) and [documentation standards](#documentation-standards) before you start working on the pull request.
+Please comment on the issue that you're interested in working on. Also, check out the <a href="#coding-standards" target="_blank" rel="noopener noreferrer">coding standards</a> and <a href="#documentation-standards" target="_blank" rel="noopener noreferrer">documentation standards</a> before you start working on the pull request.
 
-Once the pull request is merged to one of Taiko's GitHub repositories (you can see which repositories here: [2024 Taiko Contributor GitPOAP](https://www.gitpoap.io/gp/1092)), you will be automatically awarded a Taiko Contributor GitPOAP. Opening a good new issue (not a spam issue) is also eligible for a GitPOAP, just leave a comment and we will manually invoke a GitHub bot that will send the GitPOAP.
+Once the pull request is merged to one of Taiko's GitHub repositories (you can see which repositories here: <a href="https://www.gitpoap.io/gp/1092" target="_blank" rel="noopener noreferrer">2024 Taiko Contributor GitPOAP</a>), you will be automatically awarded a Taiko Contributor GitPOAP. Opening a good new issue (not a spam issue) is also eligible for a GitPOAP, just leave a comment and we will manually invoke a GitHub bot that will send the GitPOAP.
 
-You can learn how to best contribute to Taiko by watching the [“Taiko Contributing Guide - Community Workshop”](https://www.youtube.com/watch?v=xMDSHT5C29c) video on our YouTube channel.
+You can learn how to best contribute to Taiko by watching the <a href="https://www.youtube.com/watch?v=xMDSHT5C29c" target="_blank" rel="noopener noreferrer">"Taiko Contributing Guide - Community Workshop"</a> video on our YouTube channel.
 
 ## Coding standards
 
@@ -39,7 +39,7 @@ Before we can consider your contributions, please have a look at the following r
 - Any contribution must follow the standards documented in this file.
 - The scope must be larger than a simple rename, or typo fix. We kindly request that small, incremental updates be combined into more substantial pull requests. This approach will streamline our development and ensure focus on core improvements.
 
-Specify the scope of your change with a [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) in the PR title (for example, `feat(scope): description of feature`). This will be squashed and merged into the `main` branch. You can find the full list of allowed scopes [here](https://github.com/taikoxyz/taiko-mono/blob/main/.github/workflows/validate-pr-title.yml#L28).
+Specify the scope of your change with a <a href="https://www.conventionalcommits.org/en/v1.0.0/" target="_blank" rel="noopener noreferrer">conventional commit</a> in the PR title (for example, `feat(scope): description of feature`). This will be squashed and merged into the `main` branch. You can find the full list of allowed scopes <a href="https://github.com/taikoxyz/taiko-mono/blob/main/.github/workflows/validate-pr-title.yml#L28" target="_blank" rel="noopener noreferrer">here</a>.
 
 Because we squash all of the changes into a single commit, please try to keep the PR limited to the scope specified in the commit message. This commit message will end up in the automated changelog by checking which packages are affected by the commit.
 
@@ -51,7 +51,7 @@ Please note, small pull requests will not be considered for future airdrops. We 
 
 ### Source code comments
 
-Follow the [NatSpec format](https://docs.soliditylang.org/en/latest/natspec-format.html) for documenting smart contract source code. Please adhere to a few additional standards:
+Follow the <a href="https://docs.soliditylang.org/en/latest/natspec-format.html" target="_blank" rel="noopener noreferrer">NatSpec format</a> for documenting smart contract source code. Please adhere to a few additional standards:
 
 #### Comment style
 
@@ -211,7 +211,7 @@ All user-facing functions should be fully documented with NatSpec. Internal func
 
 #### Explanatory comments
 
-Explanatory comments use `//`. There is a common idea that the code describes the documentation. There are pros to this approach. One of the pros is that you remove the coupling between documentation and the code it's describing, that's why we should always strive for the [minimum viable documentation](https://google.github.io/styleguide/docguide/best_practices.html#minimum-viable-documentation) (one of our core documentation [philosophies](#philosophies)). It can also appear cleaner.
+Explanatory comments use `//`. There is a common idea that the code describes the documentation. There are pros to this approach. One of the pros is that you remove the coupling between documentation and the code it's describing, that's why we should always strive for the <a href="https://google.github.io/styleguide/docguide/best_practices.html#minimum-viable-documentation" target="_blank" rel="noopener noreferrer">minimum viable documentation</a> (one of our core documentation <a href="#philosophies" target="_blank" rel="noopener noreferrer">philosophies</a>). It can also appear cleaner.
 
 It's important that our codebase is well documented with **explanatory comments**. Thus, in addition to the standard NatSpec documentation which we should apply, we should comment the more complex things in our codebase for higher readability. More important than commenting _what_ we should be concerned with commenting _why_. The _what_ does not need to be commented for obvious things, of course the code is able to achieve that. We should comment the _what_ for more complex things to aid in the reader for more quickly understanding the code. In addition to that, we should strive to answer the _why_ with comments in our code.
 
@@ -242,10 +242,10 @@ This section describes our documentation standards at Taiko.
 
 ### Writing style
 
-Use the [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/) as a base point of reference for writing style. Generally, don't worry too much about things like typos. What's more important is following the basic [philosophies](#philosophies) outlined above and following structural standards for highly readable and minimal documentation.
+Use the <a href="https://learn.microsoft.com/en-us/style-guide/welcome/" target="_blank" rel="noopener noreferrer">Microsoft Writing Style Guide</a> as a base point of reference for writing style. Generally, don't worry too much about things like typos. What's more important is following the basic <a href="#philosophies" target="_blank" rel="noopener noreferrer">philosophies</a> outlined above and following structural standards for highly readable and minimal documentation.
 
 ### Creating content
 
-If you are interested in creating some content (video, blog post, tweet thread, visuals, etc.), you are absolutely free to do so. It's useful to get a peer review on these, if you need a peer review please reach out to the community / team on the [Taiko Discord](https://discord.gg/taikoxyz).
+If you are interested in creating some content (video, blog post, tweet thread, visuals, etc.), you are absolutely free to do so. It's useful to get a peer review on these, if you need a peer review please reach out to the community / team on the <a href="https://discord.gg/taikoxyz" target="_blank" rel="noopener noreferrer">Taiko Discord</a>.
 
-If you are looking for some more guidance on creating content, you can consult the [Taiko content guide](https://hackmd.io/@taikolabs/BJurgF1bn).
+If you are looking for some more guidance on creating content, you can consult the <a href="https://hackmd.io/@taikolabs/BJurgF1bn" target="_blank" rel="noopener noreferrer">Taiko content guide</a>.

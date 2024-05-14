@@ -12,9 +12,9 @@ The thought process for Taiko is as follows:
 - Ethereum is too expensive.
 - We believe in Ethereum's core properties (e.g., censorship-resistant, permissionless, secure).
 - Rollups should extend (not augment) these properties.
-- Thus, we are building a [based rollup](/core-concepts/based-sequencing) which makes Ethereum cheaper while maintaining its properties.
-- [Based contestable rollup](/core-concepts/contestable-rollups): A configurable rollup to reduce transaction fees on Ethereum.
-- [Based booster rollup](/core-concepts/booster-rollups): An innovative approach to **native L1 scaling**.
+- Thus, we are building a <a href="/core-concepts/based-sequencing" target="_blank" rel="noopener noreferrer">based rollup</a> which makes Ethereum cheaper while maintaining its properties.
+- <a href="/core-concepts/contestable-rollups" target="_blank" rel="noopener noreferrer">Based contestable rollup</a>: A configurable rollup to reduce transaction fees on Ethereum.
+- <a href="/core-concepts/booster-rollups" target="_blank" rel="noopener noreferrer">Based booster rollup</a>: An innovative approach to **native L1 scaling**.
 
 Taiko is a **fully open source, permissionless, Ethereum-equivalent ZK-Rollup**. Using Taiko feels the exact same as using Ethereum. There are no centralized actors that operate the network; all operations are permissionlessly run by the community.
 
@@ -35,27 +35,27 @@ Taiko is a **fully open source, permissionless, Ethereum-equivalent ZK-Rollup**.
 
 ### Frontends
 
-- [Bridge UI](https://bridge.hekla.taiko.xyz)
-- [Network + Guardian Prover status page](https://status.taiko.xyz)
-- [Fork of Uniswap v3 UI](https://swap.hekla.taiko.xyz)
-- [Main homepage](https://taiko.xyz) + [this documentation site](https://docs.taiko.xyz)
-- [Geth fork diff page](https://geth.taiko.xyz)
+- <a href="https://bridge.hekla.taiko.xyz" target="_blank" rel="noopener noreferrer">Bridge UI</a>
+- <a href="https://status.taiko.xyz" target="_blank" rel="noopener noreferrer"> Network + Guardian Prover status page</a>
+- <a href="https://swap.hekla.taiko.xyz" target="_blank" rel="noopener noreferrer">Fork of Uniswap v3 UI</a>
+- <a href="https://taiko.xyz" target="_blank" rel="noopener noreferrer">Main homepage</a> + <a href="https://docs.taiko.xyz" target="_blank" rel="noopener noreferrer">this documentation site</a>
+- <a href="https://geth.taiko.xyz" target="_blank" rel="noopener noreferrer">Geth fork diff page</a>
 
 ### Non-critical backend infrastructure
 
-- [Event indexer](/api-reference/event-indexer-api)
-- [Bridge relayer](/api-reference/bridge-relayer-api)
-- [P2P bootstrapping nodes](/network-reference/addresses#taiko-labs-bootnode-addresses)
-- [Taiko Labs' proposers and provers](/network-reference/addresses)
+- <a href="/api-reference/event-indexer-api" target="_blank" rel="noopener noreferrer">Event indexer</a>
+- <a href="/api-reference/bridge-relayer-api" target="_blank" rel="noopener noreferrer">Bridge relayer</a>
+- <a href="/network-reference/addresses#taiko-labs-bootnode-addresses" target="_blank" rel="noopener noreferrer">P2P bootstrapping nodes</a>
+- <a href="/network-reference/addresses" target="_blank" rel="noopener noreferrer">Taiko Labs' proposers and provers</a>
 
 ### Critical backend infrastructure
 
-- [Rollup contracts owner](/network-reference/addresses#rollup-contracts-owner)
+- <a href="/network-reference/addresses#rollup-contracts-owner" target="_blank" rel="noopener noreferrer">Rollup contracts owner</a>
 
 ### Open source software
 
-- [Taiko protocol smart contracts](https://github.com/taikoxyz/taiko-mono)
-- [Taiko geth](https://github.com/taikoxyz/taiko-geth)
-- [Taiko client](https://github.com/taikoxyz/taiko-client)
-- [Raiko client](https://github.com/taikoxyz/raiko)
-- [Simple taiko node](https://github.com/taikoxyz/simple-taiko-node)
+- <a href="https://github.com/taikoxyz/taiko-mono" target="_blank" rel="noopener noreferrer">Taiko protocol smart contracts</a>
+- <a href="https://github.com/taikoxyz/taiko-geth" target="_blank" rel="noopener noreferrer">Taiko geth</a>
+- <a href="https://github.com/taikoxyz/taiko-client" target="_blank" rel="noopener noreferrer">Taiko client</a>
+- <a href="https://github.com/taikoxyz/raiko" target="_blank" rel="noopener noreferrer">Raiko client</a>
+- <a href="https://github.com/taikoxyz/simple-taiko-node" target="_blank" rel="noopener noreferrer">Simple taiko node</a>

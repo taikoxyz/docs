@@ -3,26 +3,26 @@ title: Taiko nodes
 description: Core concept page for "Taiko nodes".
 ---
 
-Taiko nodes are minimally modified Ethereum [execution clients](https://ethereum.org/en/glossary/#execution-client) that consist of two parts:
+Taiko nodes are minimally modified Ethereum <a href="https://ethereum.org/en/glossary/#execution-client" target="_blank" rel="noopener noreferrer">execution clients</a> that consist of two parts:
 
-- [taiko-geth](https://github.com/taikoxyz/taiko-geth)
-- [taiko-client](https://github.com/taikoxyz/taiko-client)
+- <a href="https://github.com/taikoxyz/taiko-geth" target="_blank" rel="noopener noreferrer">taiko-geth</a>
+- <a href="https://github.com/taikoxyz/taiko-client" target="_blank" rel="noopener noreferrer">taiko-client</a>
 
-You can think of it like an Ethereum mainnet node, except replacing the consensus client with `taiko-client`. `taiko-client` then drives `taiko-geth` over the [Engine API](https://github.com/ethereum/execution-apis/tree/main/src/engine). This is a modular design that allows easily plugging in other execution clients.
+You can think of it like an Ethereum mainnet node, except replacing the consensus client with `taiko-client`. `taiko-client` then drives `taiko-geth` over the <a href="https://github.com/ethereum/execution-apis/tree/main/src/engine" target="_blank" rel="noopener noreferrer">Engine API</a>. This is a modular design that allows easily plugging in other execution clients.
 
 ![Taiko nodes diagram](~/assets/content/docs/core-concepts/taiko-nodes.png)
 
 ## taiko-geth
 
-The [taiko-geth](https://github.com/taikoxyz/taiko-geth) software is a fork of [go-ethereum](https://github.com/ethereum/go-ethereum) with some changes made according to the Taiko protocol.
+The <a href="https://github.com/taikoxyz/taiko-geth" target="_blank" rel="noopener noreferrer">taiko-geth</a> software is a fork of <a href="https://github.com/ethereum/go-ethereum" target="_blank" rel="noopener noreferrer">go-ethereum</a> with some changes made according to the Taiko protocol.
 
 Like Ethereum mainnet execution engines, `taiko-geth` listens to new L2 transactions broadcasted in the L2 network, executes them in the EVM, and holds the latest state and database of all current L2 data.
 
-You can see all the changes made in the `taiko-geth` fork at [geth.taiko.xyz](https://geth.taiko.xyz)!
+You can see all the changes made in the `taiko-geth` fork at <a href="https://geth.taiko.xyz" target="_blank" rel="noopener noreferrer">geth.taiko.xyz</a>!
 
 ## taiko-client
 
-The [taiko-client](https://github.com/taikoxyz/taiko-client) software replaces the consensus client piece of an Ethereum mainnet node. It connects to `taiko-geth`, and the compiled binary includes three sub-commands:
+The <a href="https://github.com/taikoxyz/taiko-client" target="_blank" rel="noopener noreferrer">taiko-client</a> software replaces the consensus client piece of an Ethereum mainnet node. It connects to `taiko-geth`, and the compiled binary includes three sub-commands:
 
 ### `driver`
 
@@ -83,5 +83,5 @@ When a new block is proposed, the `prover`:
 
 If the proposed block has a **valid** or **invalid** `txList`, the `prover`:
 
-1. Generates a Merkle proof of the block's `TaikoL2.anchor` transaction to prove its existence in the `block.txRoot`'s [MPT](https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/) and this transaction receipt's [Merkle proof](https://rollup-glossary.vercel.app/other-terms#merkle-proofs) in the `block.receiptRoot`'s MPT from the L2 execution engine.
+1. Generates a Merkle proof of the block's `TaikoL2.anchor` transaction to prove its existence in the `block.txRoot`'s <a href="https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/" target="_blank" rel="noopener noreferrer">MPT</a> and this transaction receipt's <a href="https://rollup-glossary.vercel.app/other-terms#merkle-proofs" target="_blank" rel="noopener noreferrer">Merkle proof</a> in the `block.receiptRoot`'s MPT from the L2 execution engine.
 2. Submits the `TaikoL2.anchor` transaction's RLP encoded bytes, its receipt's RLP encoded bytes, the generated Merkle proofs, and a validity proof to prove this block **valid** by sending a `TaikoL1.proveBlock` transaction (the block is valid even for an invalid `txList` because we prove the invalid `txList` maps to an empty block with only the anchor transaction).

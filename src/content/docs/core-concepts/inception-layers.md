@@ -17,4 +17,4 @@ Further, Ethereum-equivalence across L2s, L3s, and beyond means inheriting some 
 
 ![Inception layers diagram](~/assets/content/docs/core-concepts/inception-layers-diagram.png)
 
-For more information on how Taiko's message passing works see the concept page on [Bridging](/core-concepts/bridging).
+For more information on how Taiko's message passing works see the concept page on <a href="/core-concepts/bridging" target="_blank" rel="noopener noreferrer">Bridging</a>.
