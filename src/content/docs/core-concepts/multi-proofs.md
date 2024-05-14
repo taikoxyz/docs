@@ -66,7 +66,7 @@ To add a layer of security and commitment to the process, provers must provide a
 
 ## Multi-proofs
 
-A great resource to learn about Taiko's approach to security with multi-proofs is the Twitter thread [here](https://x.com/taikoxyz/status/1745546868028068273).
+A great resource to learn about Taiko's approach to security with multi-proofs is the Twitter thread <a href="https://x.com/taikoxyz/status/1745546868028068273" target="_blank" rel="noopener noreferrer">here</a>.
 
 Cryptographic implementations are complex and not yet mature. To minimize potential bugs and vulnerabilities, diversity in proof systems is needed. Taiko is one of the advocates who strongly defends the multi-proofs approach in rollups. Taiko's approach aims to increase security and diversity by using multiple proof systems and clients, thus reducing the risk associated with bugs or vulnerabilities in any single system. The approach also includes the integration of different types of proofs.
 

@@ -17,7 +17,7 @@ Another term for a Type 1 ZK-EVM is “Ethereum-equivalent”. This term comes f
 
 ## Is Taiko open source?
 
-Yes, Taiko is open source under the permissive MIT license (free to access and modify). The Geth fork ([taiko-geth](https://github.com/taikoxyz/taiko-geth)) retains the original Geth GPL licenses.
+Yes, Taiko is open source under the permissive MIT license (free to access and modify). The Geth fork (<a href="https://github.com/taikoxyz/taiko-geth" target="_blank" rel="noopener noreferrer">taiko-geth</a>) retains the original Geth GPL licenses.
 
 ## Can I ignore these logs from my node?
 
@@ -25,7 +25,7 @@ Join the Discord (`#errors-faq` channel) to see the node logs that can be ignore
 
 ## Where can I find the deployed contract addresses?
 
-See [deployed contracts](/network-reference/addresses) for a list of deployed contract addresses.
+See <a href="/network-reference/addresses" target="_blank" rel="noopener noreferrer">deployed contracts</a> for a list of deployed contract addresses.
 
 ## I ran a node during a previous testnet do I need to do anything different?
 
@@ -37,4 +37,4 @@ Taiko does not have an L2 sequencer, since everyone can become a proposer permis
 
 ## How do I get ETH on the Taiko Hekla network?
 
-You can use the official [Taiko bridge](https://bridge.hekla.taiko.xyz/) to send your ETH from the Holesky network to the Taiko Hekla network.
+You can use the official <a href="https://bridge.hekla.taiko.xyz/" target="_blank" rel="noopener noreferrer">Taiko bridge</a> to send your ETH from the Holesky network to the Taiko Hekla network.

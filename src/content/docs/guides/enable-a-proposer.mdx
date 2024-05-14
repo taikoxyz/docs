@@ -7,18 +7,18 @@ import { Steps } from '@astrojs/starlight/components';
 
 ## Prerequisites
 
-- You are already [running a Taiko node](/guides/run-a-taiko-node).
+- You are already <a href="/guides/run-a-taiko-node" target="_blank" rel="noopener noreferrer">running a Taiko node</a>.
 
 {/*## Using `stn`
 
-1. Install [stn](https://github.com/d1onys1us/stn) if you haven't already.
+1. Install <a href="https://github.com/d1onys1us/stn" target="_blank" rel="noopener noreferrer">stn</a> if you haven't already.
 2. Execute `stn config proposer` in your terminal and walk through the steps.*/}
 
 ## Using simple-taiko-node
 
 <Steps>
 
-1. First, you will need to have a prover from [the marketplace](/resources/prover-marketplace) or [run your own SGX prover](/guides/enable-a-prover).
+1. First, you will need to have a prover from <a href="/resources/prover-marketplace" target="_blank" rel="noopener noreferrer">the marketplace</a> or <a href="/guides/enable-a-prover" target="_blank" rel="noopener noreferrer">run your own SGX prover</a>.
 
 2. You MUST set `PROVER_ENDPOINTS` in simple-taiko-node `.env` file to the your SGX prover's endpoint or one from the marketplace. If you do not set it and leave it default while not running a prover, **your proposer will not work**.
 

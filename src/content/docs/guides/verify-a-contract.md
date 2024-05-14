@@ -30,4 +30,4 @@ For some users the above command does not work on Blockscout (currently investig
 
 ## Verify a contract with Hardhat or other alternatives
 
-Check out the Blockscout docs [here](https://docs.blockscout.com/for-users/verifying-a-smart-contract)!
+Check out the Blockscout docs <a href="https://docs.blockscout.com/for-users/verifying-a-smart-contract" target="_blank" rel="noopener noreferrer">here</a>!

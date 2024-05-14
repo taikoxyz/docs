@@ -7,9 +7,9 @@ Bridges are foundational for cross-chain users and applications. Users might com
 
 Let's explain bridging on Taiko. We will answer the following questions:
 
-- [How does the Taiko protocol enable secure cross-chain messaging?](#cross-chain-messaging)
-- [What is the Taiko signal service?](#the-signal-service)
-- [How does Taiko's bridge implementation work?](#how-the-bridge-works)
+- <a href="#cross-chain-messaging" target="_blank" rel="noopener noreferrer">How does the Taiko protocol enable secure cross-chain messaging?</a>
+- <a href="#the-signal-service" target="_blank" rel="noopener noreferrer">What is the Taiko signal service?</a>
+- <a href="#how-the-bridge-works" target="_blank" rel="noopener noreferrer">How does Taiko's bridge implementation work?</a>
 
 ## Cross-chain messaging
 
@@ -67,7 +67,7 @@ Let's walk through an example:
 2. Next, we call `eth_getProof`, which will give us a proof that we did indeed send a message on the source chain.
 3. Finally, we call `isSignalReceived` on the destination chain's SignalService which essentially just verifies the merkle proof. `isSignalReceived` will look up the block hash you are asserting you had stored a message on the source chain (where you originally sent the message), and with the sibling hashes inside the merkle proof it will rebuild the merkle root, which verifies the signal was included in that merkle root—meaning it was sent.
 
-And boom! We have sent a cross-chain message. If this is confusing, you can also find a simple dApp that was built during one of our workshops to demonstrate the fundamentals. You can find it [here](https://github.com/taikoxyz/MessageServiceShowCaseApp).
+And boom! We have sent a cross-chain message. If this is confusing, you can also find a simple dApp that was built during one of our workshops to demonstrate the fundamentals. You can find it <a href="https://github.com/taikoxyz/MessageServiceShowCaseApp" target="_blank" rel="noopener noreferrer">here</a>.
 
 ## How the bridge works
 
